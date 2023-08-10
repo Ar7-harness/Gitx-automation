@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_q0sfh
+  identifier: pl_auto_inputset_q0sfh
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_iHOdg
+  pipeline:
+    identifier: pl_auto_pipeline_v16MC
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
