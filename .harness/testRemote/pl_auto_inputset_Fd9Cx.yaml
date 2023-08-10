@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_nUtun
+  identifier: pl_auto_inputset_nUtun
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_iHOdg
+  pipeline:
+    identifier: pl_auto_pipeline_zNQMm
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
