@@ -1,9 +1,0 @@
-overlayInputSet:
-  name: overpl_auto_inputset_5KinxJOGPAs
-  identifier: overpl_auto_inputset_5KinxJOGPAs
-  orgIdentifier: Simlified_Git_sync
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  pipelineIdentifier: pl_auto_pipeline_x0OGe
-  inputSetReferences:
-    - pl_auto_inputset_5KinxJOGPAs
-  tags: {}
