@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_3385C
+  identifier: pl_auto_inputset_3385C
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_KpbSh
+  pipeline:
+    identifier: pl_auto_pipeline_hInwo
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
