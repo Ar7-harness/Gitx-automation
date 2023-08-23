@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_6rz2Z
+  identifier: pl_auto_pipeline_6rz2Z
+  projectIdentifier: CDCNGAuto_CustomTrigger_KpbSh
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_fsFA1
+          project: CDCNGAuto_CustomTrigger_KpbSh
