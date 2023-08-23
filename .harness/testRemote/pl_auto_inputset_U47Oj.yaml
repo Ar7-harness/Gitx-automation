@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_C3WOC
+  identifier: pl_auto_inputset_C3WOC
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_KpbSh
+  pipeline:
+    identifier: pl_auto_pipeline_lbGMB
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
