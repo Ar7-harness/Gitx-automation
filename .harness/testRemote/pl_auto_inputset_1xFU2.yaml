@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_2tNv3
+  identifier: pl_auto_inputset_2tNv3
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_zTuHF
+  pipeline:
+    identifier: pl_auto_pipeline_lyq6N
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
