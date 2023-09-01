@@ -1,9 +1,0 @@
-overlayInputSet:
-  name: overpl_auto_inputset_562rXLPioSE
-  identifier: overpl_auto_inputset_562rXLPioSE
-  orgIdentifier: Simlified_Git_sync
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  pipelineIdentifier: pl_auto_pipeline_L2hm2
-  inputSetReferences:
-    - pl_auto_inputset_562rXLPioSE
-  tags: {}
