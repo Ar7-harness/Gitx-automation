@@ -1,0 +1,9 @@
+pipeline:
+  name: Temp_automation
+  identifier: Temp_automation
+  template:
+    templateRef: pipe_template
+    versionLabel: v1
+  tags: {}
+  projectIdentifier: test
+  orgIdentifier: DoNotDeleteTriggerOrg
