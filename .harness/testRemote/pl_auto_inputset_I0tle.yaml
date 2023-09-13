@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_HVKpw
+  identifier: pl_auto_inputset_HVKpw
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_tBIzD
+  pipeline:
+    identifier: pl_auto_pipeline_6vDJh
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
