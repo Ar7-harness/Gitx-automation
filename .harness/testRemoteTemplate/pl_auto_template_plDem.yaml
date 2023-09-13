@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_plDem
+  identifier: pl_auto_template_plDem
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OpYOo
+              identifier: pl_auto_template_OpYOo
+              template:
+                templateRef: account.pl_auto_template_OpYOo
+                versionLabel: v3
+                gitBranch: main
