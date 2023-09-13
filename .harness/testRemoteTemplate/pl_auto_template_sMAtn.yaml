@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sMAtn
+  identifier: pl_auto_template_sMAtn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PRTHi
+              identifier: pl_auto_template_PRTHi
+              template:
+                templateRef: account.pl_auto_template_PRTHi
+                versionLabel: v3
+                gitBranch: main
