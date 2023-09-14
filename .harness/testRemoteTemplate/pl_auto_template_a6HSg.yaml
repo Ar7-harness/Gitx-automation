@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_a6HSg
+  identifier: pl_auto_template_a6HSg
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_nbWUB
+              identifier: pl_auto_template_nbWUB
+              template:
+                templateRef: account.pl_auto_template_nbWUB
+                versionLabel: v3
+                gitBranch: main
