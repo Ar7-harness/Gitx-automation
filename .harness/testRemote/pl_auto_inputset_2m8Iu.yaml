@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_HMLV1
+  identifier: pl_auto_inputset_HMLV1
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_xzHxG
+  pipeline:
+    identifier: PipelineAuto_CRUD5VE
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
