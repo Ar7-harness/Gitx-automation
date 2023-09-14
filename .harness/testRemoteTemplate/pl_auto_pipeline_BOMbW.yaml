@@ -1,0 +1,15 @@
+template:
+  name: pl_auto_pipeline_BOMbW
+  identifier: pl_auto_pipeline_BOMbW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_P8i8R
+          identifier: pl_auto_template_P8i8R
+          template:
+            templateRef: account.pl_auto_template_P8i8R
+            versionLabel: v3
+            gitBranch: main
