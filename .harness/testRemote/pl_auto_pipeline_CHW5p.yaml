@@ -1,0 +1,32 @@
+pipeline:
+  name: pl_auto_pipeline_CHW5p
+  identifier: pl_auto_pipeline_CHW5p
+  projectIdentifier: CDCNGAuto_CustomTrigger_jBgNI
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://piebackprod.pr2.harness.io/gateway/pipeline/api/webhook/custom/n8rscoqIR6a_cnOQS-bKdg/v3?accountIdentifier=bJ6QBiIsQWiJADqFGaM6oQ&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomTrigger_jBgNI&pipelineIdentifier=pl_auto_pipeline_5mJA0&triggerIdentifier=CDNGAuto_Trigger_iBa75ZzXRI
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: x-api-key
+                        value: pat.rXUXvbFqRr2XwcjBu3Oq-Q.64abe6cbb5dbe80fbfa4bc63.F1S0QRSwclXcWmaTWDUo
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: "{\"sample_key\": \"sample_value\"}"
+                  timeout: 10m
+        tags: {}
