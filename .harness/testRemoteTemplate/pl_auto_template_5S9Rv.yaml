@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_5S9Rv
+  identifier: pl_auto_template_5S9Rv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_wpiZ7
+              identifier: pl_auto_template_wpiZ7
+              template:
+                templateRef: account.pl_auto_template_wpiZ7
+                versionLabel: v3
+                gitBranch: main
