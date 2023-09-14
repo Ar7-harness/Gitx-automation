@@ -1,0 +1,15 @@
+template:
+  name: pl_auto_pipeline_GIoj7
+  identifier: pl_auto_pipeline_GIoj7
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_akLMV
+          identifier: pl_auto_template_akLMV
+          template:
+            templateRef: account.pl_auto_template_akLMV
+            versionLabel: v3
+            gitBranch: main
