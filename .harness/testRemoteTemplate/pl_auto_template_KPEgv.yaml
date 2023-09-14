@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KPEgv
+  identifier: pl_auto_template_KPEgv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zElVG
+              identifier: pl_auto_template_zElVG
+              template:
+                templateRef: account.pl_auto_template_zElVG
+                versionLabel: v3
+                gitBranch: main
