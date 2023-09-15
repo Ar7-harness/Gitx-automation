@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_KX8r6","identifier":"pl_auto_inputset_KX8r6","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_DO7ue","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgEVOrldiSul"}}}}]}}}
