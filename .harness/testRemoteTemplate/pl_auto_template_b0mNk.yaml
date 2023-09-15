@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_b0mNk
+  identifier: pl_auto_template_b0mNk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CpA8Q
+              identifier: pl_auto_template_CpA8Q
+              template:
+                templateRef: account.pl_auto_template_CpA8Q
+                versionLabel: v3
+                gitBranch: main
