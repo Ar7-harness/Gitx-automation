@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelinevchNjQ1DDU
+  identifier: ParentPipelinevchNjQ1DDU
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_aS3gz
+          project: SimplifiedGitSync_Do_Not_Delete
