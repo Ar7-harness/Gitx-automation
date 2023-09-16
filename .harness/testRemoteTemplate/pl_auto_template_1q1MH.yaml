@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_1q1MH
+  identifier: pl_auto_template_1q1MH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Zg5El
+              identifier: pl_auto_template_Zg5El
+              template:
+                templateRef: account.pl_auto_template_Zg5El
+                versionLabel: v3
+                gitBranch: main
