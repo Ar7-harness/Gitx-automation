@@ -1,0 +1,25 @@
+template:
+  name: pl_auto_template_JoTmf
+  identifier: pl_auto_template_JoTmf
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s2
+          identifier: s2
+          template:
+            templateRef: account.pl_auto_template_qCX9i
+            versionLabel: v3
+            templateInputs:
+              type: Approval
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: stage
+                        type: HarnessApproval
+                        spec:
+                          approvers:
+                            userGroups: <+input>
