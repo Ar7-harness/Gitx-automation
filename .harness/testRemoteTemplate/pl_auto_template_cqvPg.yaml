@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cqvPg
+  identifier: pl_auto_template_cqvPg
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BvKaC
+              identifier: pl_auto_template_BvKaC
+              template:
+                templateRef: account.pl_auto_template_BvKaC
+                versionLabel: v3
+                gitBranch: main
