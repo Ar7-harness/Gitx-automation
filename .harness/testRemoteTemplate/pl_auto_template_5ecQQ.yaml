@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_5ecQQ
+  identifier: pl_auto_template_5ecQQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_35JIT
+              identifier: pl_auto_template_35JIT
+              template:
+                templateRef: account.pl_auto_template_35JIT
+                versionLabel: v3
+                gitBranch: main
