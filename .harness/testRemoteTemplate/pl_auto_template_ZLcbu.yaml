@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ZLcbu
+  identifier: pl_auto_template_ZLcbu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_88ZOc
+              identifier: pl_auto_template_88ZOc
+              template:
+                templateRef: account.pl_auto_template_88ZOc
+                versionLabel: v3
+                gitBranch: main
