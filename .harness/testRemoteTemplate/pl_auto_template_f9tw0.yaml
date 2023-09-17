@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_f9tw0
+  identifier: pl_auto_template_f9tw0
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dCQZg
+              identifier: pl_auto_template_dCQZg
+              template:
+                templateRef: account.pl_auto_template_dCQZg
+                versionLabel: v3
+                gitBranch: main
