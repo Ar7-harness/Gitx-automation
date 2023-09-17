@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_RmimK
+  identifier: pl_auto_template_RmimK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_1xeDn
+              identifier: pl_auto_template_1xeDn
+              template:
+                templateRef: account.pl_auto_template_1xeDn
+                versionLabel: v3
+                gitBranch: main
