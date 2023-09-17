@@ -1,0 +1,15 @@
+template:
+  name: pl_auto_pipeline_9IIQk
+  identifier: pl_auto_pipeline_9IIQk
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RmimK
+          identifier: pl_auto_template_RmimK
+          template:
+            templateRef: account.pl_auto_template_RmimK
+            versionLabel: v3
+            gitBranch: main
