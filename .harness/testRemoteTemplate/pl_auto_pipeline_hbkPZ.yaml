@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_hbkPZ
+  identifier: pl_auto_pipeline_hbkPZ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_MC0BV
+          identifier: pl_auto_template_MC0BV
+          template:
+            templateRef: account.pl_auto_template_MC0BV
+            versionLabel: v3
