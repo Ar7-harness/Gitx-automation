@@ -1,0 +1,15 @@
+template:
+  name: test4566
+  identifier: test4566
+  versionLabel: "1"
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: p1
+          identifier: p1
+          template:
+            templateRef: account.pl_auto_template_LgQtp
+            versionLabel: v3
+            gitBranch: main-patch
