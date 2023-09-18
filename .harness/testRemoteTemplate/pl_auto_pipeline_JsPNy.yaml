@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_JsPNy
+  identifier: pl_auto_pipeline_JsPNy
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_pb2eb
+          identifier: pl_auto_template_pb2eb
+          template:
+            templateRef: account.pl_auto_template_pb2eb
+            versionLabel: v3
