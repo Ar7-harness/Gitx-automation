@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_WimXT","identifier":"pl_auto_inputset_WimXT","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_U2zZH","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg8CUk9LOx1n"}}}}]}}}
