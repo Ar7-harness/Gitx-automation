@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_SlUDe
+  identifier: pl_auto_inputset_SlUDe
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_KqRrT
+  pipeline:
+    identifier: PipelineAuto_CRUDM1i
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
