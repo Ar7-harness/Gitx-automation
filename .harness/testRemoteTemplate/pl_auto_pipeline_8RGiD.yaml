@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_8RGiD
+  identifier: pl_auto_pipeline_8RGiD
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RCdpN
+          identifier: pl_auto_template_RCdpN
+          template:
+            templateRef: account.pl_auto_template_RCdpN
+            versionLabel: v3
