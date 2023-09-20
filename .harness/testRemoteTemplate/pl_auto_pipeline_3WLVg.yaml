@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3WLVg
+  identifier: pl_auto_pipeline_3WLVg
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_eFACY
+          identifier: pl_auto_template_eFACY
+          template:
+            templateRef: account.pl_auto_template_eFACY
+            versionLabel: v3
