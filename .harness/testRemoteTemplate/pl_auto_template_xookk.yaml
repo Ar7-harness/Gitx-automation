@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_xookk
+  identifier: pl_auto_template_xookk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PiM1V
+              identifier: pl_auto_template_PiM1V
+              template:
+                templateRef: account.pl_auto_template_PiM1V
+                versionLabel: v3
