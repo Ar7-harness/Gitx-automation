@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_GTW49
+  identifier: pl_auto_template_GTW49
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Rp3hZ
+              identifier: pl_auto_template_Rp3hZ
+              template:
+                templateRef: account.pl_auto_template_Rp3hZ
+                versionLabel: v3
