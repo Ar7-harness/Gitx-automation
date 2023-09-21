@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_mAQWa","identifier":"pl_auto_inputset_mAQWa","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_MwdpR","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgVJs0U0BeGV"}}}}]}}}
