@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_IFmsn","identifier":"pl_auto_inputset_IFmsn","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_6Jrdq","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgxQ8VMLinfm"}}}}]}}}
