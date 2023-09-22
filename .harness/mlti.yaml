@@ -1,0 +1,9 @@
+pipeline:
+  name: mlti
+  identifier: mlti
+  template:
+    templateRef: account.sep22
+    versionLabel: v1
+  tags: {}
+  projectIdentifier: NGPipeAutoBarriersyQhYRHqdJW
+  orgIdentifier: Pipelines_NonK8s_Org_NG
