@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_640yV
+  identifier: pl_auto_template_640yV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Bnsmq
+              identifier: pl_auto_template_Bnsmq
+              template:
+                templateRef: account.pl_auto_template_Bnsmq
+                versionLabel: v3
