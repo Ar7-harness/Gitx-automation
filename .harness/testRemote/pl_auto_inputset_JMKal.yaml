@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_eJVMP","identifier":"pl_auto_inputset_eJVMP","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_QsOrG","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgBhI1fcx1rN"}}}}]}}}
