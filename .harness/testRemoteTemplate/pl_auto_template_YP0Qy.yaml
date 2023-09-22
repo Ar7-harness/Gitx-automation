@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_YP0Qy
+  identifier: pl_auto_template_YP0Qy
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DS1IQ
+              identifier: pl_auto_template_DS1IQ
+              template:
+                templateRef: account.pl_auto_template_DS1IQ
+                versionLabel: v3
