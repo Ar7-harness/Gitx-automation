@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_Sx94d","identifier":"pl_auto_inputset_Sx94d","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_SKles","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgaoAhfVBJVM"}}}}]}}}
