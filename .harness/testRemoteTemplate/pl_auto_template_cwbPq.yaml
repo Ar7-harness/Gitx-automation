@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_cwbPq
+  identifier: pl_auto_template_cwbPq
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BmTGq
+              identifier: pl_auto_template_BmTGq
+              template:
+                templateRef: account.pl_auto_template_BmTGq
+                versionLabel: v3
