@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_Dx9kL
+  identifier: pl_auto_template_Dx9kL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_r9dOh
+              identifier: pl_auto_template_r9dOh
+              template:
+                templateRef: account.pl_auto_template_r9dOh
+                versionLabel: v3
