@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_NizQ8
+  identifier: pl_auto_template_NizQ8
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_c8g8k
+              identifier: pl_auto_template_c8g8k
+              template:
+                templateRef: account.pl_auto_template_c8g8k
+                versionLabel: v3
