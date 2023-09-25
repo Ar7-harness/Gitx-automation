@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_kYZO9
+  identifier: pl_auto_template_kYZO9
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_uzxlv
+              identifier: pl_auto_template_uzxlv
+              template:
+                templateRef: account.pl_auto_template_uzxlv
+                versionLabel: v3
+                gitBranch: main
