@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_rPGim
+  identifier: pl_auto_pipeline_rPGim
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_vhDZz
+          identifier: pl_auto_template_vhDZz
+          template:
+            templateRef: account.pl_auto_template_vhDZz
+            versionLabel: v3
