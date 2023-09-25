@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Wx99u
+  identifier: pl_auto_pipeline_Wx99u
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_A7MLS
+          identifier: pl_auto_template_A7MLS
+          template:
+            templateRef: account.pl_auto_template_A7MLS
+            versionLabel: v3
