@@ -1,0 +1,17 @@
+template:
+  name: pl_auto_template_PoqnP
+  identifier: pl_auto_template_PoqnP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qgk6W
+              identifier: pl_auto_template_qgk6W
+              template:
+                templateRef: account.pl_auto_template_qgk6W
+                versionLabel: v3
