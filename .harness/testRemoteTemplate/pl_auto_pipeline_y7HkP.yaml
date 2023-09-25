@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_y7HkP
+  identifier: pl_auto_pipeline_y7HkP
+  template:
+    templateRef: account.pl_auto_pipeline_OiIl6
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
