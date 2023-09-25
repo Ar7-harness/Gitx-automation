@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3tbTK
+  identifier: pl_auto_pipeline_3tbTK
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Cctzx
+          identifier: pl_auto_template_Cctzx
+          template:
+            templateRef: account.pl_auto_template_Cctzx
+            versionLabel: v3
