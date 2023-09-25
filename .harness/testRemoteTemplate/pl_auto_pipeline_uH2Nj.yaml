@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_uH2Nj
+  identifier: pl_auto_pipeline_uH2Nj
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HCCAa
+          identifier: pl_auto_template_HCCAa
+          template:
+            templateRef: account.pl_auto_template_HCCAa
+            versionLabel: v3
