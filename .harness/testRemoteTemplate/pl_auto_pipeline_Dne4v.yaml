@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Dne4v
+  identifier: pl_auto_pipeline_Dne4v
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Dx9kL
+          identifier: pl_auto_template_Dx9kL
+          template:
+            templateRef: account.pl_auto_template_Dx9kL
+            versionLabel: v3
