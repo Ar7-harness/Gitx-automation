@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_HtMGG
+  identifier: pl_auto_pipeline_HtMGG
+  template:
+    templateRef: account.pl_auto_pipeline_DYb2z
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
