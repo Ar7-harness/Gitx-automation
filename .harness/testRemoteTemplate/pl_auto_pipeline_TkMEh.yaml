@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_TkMEh
+  identifier: pl_auto_pipeline_TkMEh
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_dY9gB
+          identifier: pl_auto_template_dY9gB
+          template:
+            templateRef: account.pl_auto_template_dY9gB
+            versionLabel: v3
