@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BCeCW
+  identifier: pl_auto_template_BCeCW
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_f9rfp
+              identifier: pl_auto_template_f9rfp
+              template:
+                templateRef: account.pl_auto_template_f9rfp
+                versionLabel: v3
+                gitBranch: main
