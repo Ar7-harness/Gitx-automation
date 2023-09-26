@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_ooa0P
+  identifier: pl_auto_inputset_ooa0P
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_hV5Cl
+  pipeline:
+    identifier: PipelineAuto_CRUDhlQ
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
