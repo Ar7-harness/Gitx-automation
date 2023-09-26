@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_rgy5c
+  identifier: pl_auto_inputset_rgy5c
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_iJAmc
+  pipeline:
+    identifier: PipelineAuto_CRUDhYI
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
