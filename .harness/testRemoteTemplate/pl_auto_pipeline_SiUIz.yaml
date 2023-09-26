@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_SiUIz
+  identifier: pl_auto_pipeline_SiUIz
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_nAJ37
+          identifier: pl_auto_template_nAJ37
+          template:
+            templateRef: account.pl_auto_template_nAJ37
+            versionLabel: v3
