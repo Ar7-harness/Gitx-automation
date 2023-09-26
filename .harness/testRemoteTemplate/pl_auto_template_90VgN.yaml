@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_90VgN
+  identifier: pl_auto_template_90VgN
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_t751J
+              identifier: pl_auto_template_t751J
+              template:
+                templateRef: account.pl_auto_template_t751J
+                versionLabel: v3
+                gitBranch: main
