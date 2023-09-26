@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_Jy2PA
+  identifier: pl_auto_pipeline_Jy2PA
+  template:
+    templateRef: account.pl_auto_pipeline_Giz3j
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
