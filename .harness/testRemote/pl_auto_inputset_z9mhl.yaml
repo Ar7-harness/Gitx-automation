@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_JOcEI","identifier":"pl_auto_inputset_JOcEI","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_PSUbd","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgNc0UESyaAf"}}}}]}}}
