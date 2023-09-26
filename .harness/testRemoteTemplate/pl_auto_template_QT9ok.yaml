@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QT9ok
+  identifier: pl_auto_template_QT9ok
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zLT2U
+              identifier: pl_auto_template_zLT2U
+              template:
+                templateRef: account.pl_auto_template_zLT2U
+                versionLabel: v3
+                gitBranch: main
