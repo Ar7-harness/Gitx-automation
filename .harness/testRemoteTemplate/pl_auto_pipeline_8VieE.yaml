@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_8VieE
+  identifier: pl_auto_pipeline_8VieE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_m65u1
+          identifier: pl_auto_template_m65u1
+          template:
+            templateRef: account.pl_auto_template_m65u1
+            versionLabel: v3
