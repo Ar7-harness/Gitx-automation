@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Wzrsw
+  identifier: pl_auto_template_Wzrsw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tSYRD
+              identifier: pl_auto_template_tSYRD
+              template:
+                templateRef: account.pl_auto_template_tSYRD
+                versionLabel: v3
+                gitBranch: main
