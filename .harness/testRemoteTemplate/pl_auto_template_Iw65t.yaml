@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Iw65t
+  identifier: pl_auto_template_Iw65t
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Dyb9x
+              identifier: pl_auto_template_Dyb9x
+              template:
+                templateRef: account.pl_auto_template_Dyb9x
+                versionLabel: v3
+                gitBranch: main
