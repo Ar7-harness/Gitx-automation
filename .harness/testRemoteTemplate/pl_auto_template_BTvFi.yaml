@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BTvFi
+  identifier: pl_auto_template_BTvFi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Gcq7p
+              identifier: pl_auto_template_Gcq7p
+              template:
+                templateRef: account.pl_auto_template_Gcq7p
+                versionLabel: v3
+                gitBranch: main
