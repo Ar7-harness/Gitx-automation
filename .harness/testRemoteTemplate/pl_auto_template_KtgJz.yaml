@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KtgJz
+  identifier: pl_auto_template_KtgJz
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_20VzE
+              identifier: pl_auto_template_20VzE
+              template:
+                templateRef: account.pl_auto_template_20VzE
+                versionLabel: v3
+                gitBranch: main
