@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_7gnM7
+  identifier: pl_auto_inputset_7gnM7
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_4HXxa
+  pipeline:
+    identifier: PipelineAuto_CRUD2Az
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
