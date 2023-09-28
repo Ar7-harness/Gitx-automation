@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_0lucb
+  identifier: pl_auto_template_0lucb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_noraN
+              identifier: pl_auto_template_noraN
+              template:
+                templateRef: account.pl_auto_template_noraN
+                versionLabel: v3
+                gitBranch: main
