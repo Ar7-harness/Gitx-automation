@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_c9jcr
+  identifier: pl_auto_template_c9jcr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3onom
+              identifier: pl_auto_template_3onom
+              template:
+                templateRef: account.pl_auto_template_3onom
+                versionLabel: v3
+                gitBranch: main
