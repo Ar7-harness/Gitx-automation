@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_RxFeQ
-  identifier: pl_auto_pipeline_RxFeQ
-  template:
-    templateRef: account.pl_auto_pipeline_O6dF2
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
