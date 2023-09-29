@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_sYMhE
+  identifier: pl_auto_pipeline_sYMhE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_8Dbsy
+          identifier: pl_auto_template_8Dbsy
+          template:
+            templateRef: account.pl_auto_template_8Dbsy
+            versionLabel: v3
