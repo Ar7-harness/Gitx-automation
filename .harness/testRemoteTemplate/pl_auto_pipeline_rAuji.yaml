@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_rAuji
+  identifier: pl_auto_pipeline_rAuji
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_llIKj
+          identifier: pl_auto_template_llIKj
+          template:
+            templateRef: account.pl_auto_template_llIKj
+            versionLabel: v3
