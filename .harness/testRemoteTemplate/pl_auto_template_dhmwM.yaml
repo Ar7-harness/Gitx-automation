@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dhmwM
+  identifier: pl_auto_template_dhmwM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_A1Rnm
+              identifier: pl_auto_template_A1Rnm
+              template:
+                templateRef: account.pl_auto_template_A1Rnm
+                versionLabel: v3
+                gitBranch: main
