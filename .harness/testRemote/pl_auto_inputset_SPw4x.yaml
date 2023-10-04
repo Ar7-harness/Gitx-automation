@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_4KKnl
+  identifier: pl_auto_inputset_4KKnl
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_JoleB
+  pipeline:
+    identifier: PipelineAuto_CRUDqgT
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
