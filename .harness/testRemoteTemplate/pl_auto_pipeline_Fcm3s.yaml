@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Fcm3s
+  identifier: pl_auto_pipeline_Fcm3s
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_xzVN1
+          identifier: pl_auto_template_xzVN1
+          template:
+            templateRef: account.pl_auto_template_xzVN1
+            versionLabel: v3
