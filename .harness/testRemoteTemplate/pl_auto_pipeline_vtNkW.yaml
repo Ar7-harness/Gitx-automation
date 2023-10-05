@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_vtNkW
+  identifier: pl_auto_pipeline_vtNkW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_1rXcI
+          identifier: pl_auto_template_1rXcI
+          template:
+            templateRef: account.pl_auto_template_1rXcI
+            versionLabel: v3
