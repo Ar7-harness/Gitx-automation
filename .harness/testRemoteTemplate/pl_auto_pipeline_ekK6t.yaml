@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ekK6t
+  identifier: pl_auto_pipeline_ekK6t
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_KcOWT
+          identifier: pl_auto_template_KcOWT
+          template:
+            templateRef: account.pl_auto_template_KcOWT
+            versionLabel: v3
