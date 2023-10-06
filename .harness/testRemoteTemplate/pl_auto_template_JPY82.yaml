@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_JPY82
+  identifier: pl_auto_template_JPY82
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_w5oJg
+              identifier: pl_auto_template_w5oJg
+              template:
+                templateRef: account.pl_auto_template_w5oJg
+                versionLabel: v3
+                gitBranch: main
