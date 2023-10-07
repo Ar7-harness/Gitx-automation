@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_VoE2p
+  identifier: pl_auto_template_VoE2p
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_1ADsa
+              identifier: pl_auto_template_1ADsa
+              template:
+                templateRef: account.pl_auto_template_1ADsa
+                versionLabel: v3
+                gitBranch: main
