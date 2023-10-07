@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_RF3SS
+  identifier: pl_auto_template_RF3SS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_wx8ox
+              identifier: pl_auto_template_wx8ox
+              template:
+                templateRef: account.pl_auto_template_wx8ox
+                versionLabel: v3
+                gitBranch: main
