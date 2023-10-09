@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_JTh9C
+  identifier: pl_auto_pipeline_JTh9C
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_8Czdu
+          identifier: pl_auto_template_8Czdu
+          template:
+            templateRef: account.pl_auto_template_8Czdu
+            versionLabel: v3
