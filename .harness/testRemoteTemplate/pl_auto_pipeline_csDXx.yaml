@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_csDXx
+  identifier: pl_auto_pipeline_csDXx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_wcnWo
+          identifier: pl_auto_template_wcnWo
+          template:
+            templateRef: account.pl_auto_template_wcnWo
+            versionLabel: v3
