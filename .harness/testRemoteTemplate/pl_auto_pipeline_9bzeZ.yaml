@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_9bzeZ
+  identifier: pl_auto_pipeline_9bzeZ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_MlbZp
+          identifier: pl_auto_template_MlbZp
+          template:
+            templateRef: account.pl_auto_template_MlbZp
+            versionLabel: v3
