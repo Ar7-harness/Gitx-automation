@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_Zwxge
+  identifier: pl_auto_inputset_Zwxge
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_fRvmQ
+  pipeline:
+    identifier: pl_auto_pipeline_QCE47
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
