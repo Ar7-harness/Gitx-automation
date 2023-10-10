@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_YpM8C
+  identifier: pl_auto_inputset_YpM8C
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_qGryI9XAfr
+  pipeline:
+    identifier: pl_auto_pipeline_vrMws
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
