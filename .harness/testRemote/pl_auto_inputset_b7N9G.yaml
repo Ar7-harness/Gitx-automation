@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_BtHSO","identifier":"pl_auto_inputset_BtHSO","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_rzIWu","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg9tbnb9ala8"}}}}]}}}
