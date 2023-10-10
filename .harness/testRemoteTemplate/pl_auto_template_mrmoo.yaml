@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mrmoo
+  identifier: pl_auto_template_mrmoo
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ETXyw
+              identifier: pl_auto_template_ETXyw
+              template:
+                templateRef: account.pl_auto_template_ETXyw
+                versionLabel: v3
+                gitBranch: main
