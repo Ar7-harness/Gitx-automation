@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_iuXEX
+  identifier: pl_auto_template_iuXEX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_7WGaR
+              identifier: pl_auto_template_7WGaR
+              template:
+                templateRef: account.pl_auto_template_7WGaR
+                versionLabel: v3
+                gitBranch: main
