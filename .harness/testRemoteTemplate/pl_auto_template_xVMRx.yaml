@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xVMRx
+  identifier: pl_auto_template_xVMRx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_L7sAm
+              identifier: pl_auto_template_L7sAm
+              template:
+                templateRef: account.pl_auto_template_L7sAm
+                versionLabel: v3
+                gitBranch: main
