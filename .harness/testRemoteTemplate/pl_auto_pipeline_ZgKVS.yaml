@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_ZgKVS
-  identifier: pl_auto_pipeline_ZgKVS
-  template:
-    templateRef: account.pl_auto_pipeline_IF2CZ
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
