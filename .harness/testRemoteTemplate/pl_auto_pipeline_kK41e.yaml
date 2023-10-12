@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_kK41e
+  identifier: pl_auto_pipeline_kK41e
+  template:
+    templateRef: account.pl_auto_pipeline_ASSim
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
