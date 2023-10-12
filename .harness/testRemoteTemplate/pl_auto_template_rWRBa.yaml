@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_rWRBa
+  identifier: pl_auto_template_rWRBa
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Moffg
+              identifier: pl_auto_template_Moffg
+              template:
+                templateRef: account.pl_auto_template_Moffg
+                versionLabel: v3
+                gitBranch: main
