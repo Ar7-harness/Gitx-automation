@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_QA3x5
+  identifier: pl_auto_pipeline_QA3x5
+  template:
+    templateRef: account.pl_auto_pipeline_aRXKZ
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
