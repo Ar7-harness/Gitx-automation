@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eyRig
+  identifier: pl_auto_template_eyRig
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Xyrkk
+              identifier: pl_auto_template_Xyrkk
+              template:
+                templateRef: account.pl_auto_template_Xyrkk
+                versionLabel: v3
+                gitBranch: main
