@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_as0SE
+  identifier: pl_auto_template_as0SE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qfbBr
+              identifier: pl_auto_template_qfbBr
+              template:
+                templateRef: account.pl_auto_template_qfbBr
+                versionLabel: v3
+                gitBranch: main
