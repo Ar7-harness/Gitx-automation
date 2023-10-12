@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_YHs3s
+  identifier: pl_auto_pipeline_YHs3s
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_rWRBa
+          identifier: pl_auto_template_rWRBa
+          template:
+            templateRef: account.pl_auto_template_rWRBa
+            versionLabel: v3
