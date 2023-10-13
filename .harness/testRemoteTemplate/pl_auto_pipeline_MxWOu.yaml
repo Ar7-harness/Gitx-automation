@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_MxWOu
+  identifier: pl_auto_pipeline_MxWOu
+  template:
+    templateRef: account.pl_auto_pipeline_3oqyn
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
