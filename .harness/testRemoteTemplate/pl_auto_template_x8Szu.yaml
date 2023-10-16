@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_x8Szu
+  identifier: pl_auto_template_x8Szu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DWxJ8
+              identifier: pl_auto_template_DWxJ8
+              template:
+                templateRef: account.pl_auto_template_DWxJ8
+                versionLabel: v3
+                gitBranch: main
