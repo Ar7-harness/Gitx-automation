@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_0nNu3
+  identifier: pl_auto_template_0nNu3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_UTORB
+              identifier: pl_auto_template_UTORB
+              template:
+                templateRef: account.pl_auto_template_UTORB
+                versionLabel: v3
+                gitBranch: main
