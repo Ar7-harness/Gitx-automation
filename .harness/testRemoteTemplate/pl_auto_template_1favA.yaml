@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_1favA
+  identifier: pl_auto_template_1favA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_gfEaC
+              identifier: pl_auto_template_gfEaC
+              template:
+                templateRef: account.pl_auto_template_gfEaC
+                versionLabel: v3
+                gitBranch: main
