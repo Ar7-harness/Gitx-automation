@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_AYA9l
+  identifier: pl_auto_pipeline_AYA9l
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Mgu4N
+          identifier: pl_auto_template_Mgu4N
+          template:
+            templateRef: account.pl_auto_template_Mgu4N
+            versionLabel: v3
