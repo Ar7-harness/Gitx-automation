@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Txa8A
+  identifier: pl_auto_pipeline_Txa8A
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_skg09
+          identifier: pl_auto_template_skg09
+          template:
+            templateRef: account.pl_auto_template_skg09
+            versionLabel: v3
