@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_fUNmy
+  identifier: pl_auto_pipeline_fUNmy
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_uKoTI
+          identifier: pl_auto_template_uKoTI
+          template:
+            templateRef: account.pl_auto_template_uKoTI
+            versionLabel: v3
