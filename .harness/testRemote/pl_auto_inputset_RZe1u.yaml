@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_ojQbs
+  identifier: pl_auto_inputset_ojQbs
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_B3wxH
+  pipeline:
+    identifier: PipelineAuto_CRUDfir
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
