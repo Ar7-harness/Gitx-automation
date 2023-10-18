@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_utbxM
+  identifier: pl_auto_template_utbxM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_87APj
+              identifier: pl_auto_template_87APj
+              template:
+                templateRef: account.pl_auto_template_87APj
+                versionLabel: v3
+                gitBranch: main
