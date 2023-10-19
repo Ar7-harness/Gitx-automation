@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_6LwIE
+  identifier: pl_auto_pipeline_6LwIE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_zkgSP
+          identifier: pl_auto_template_zkgSP
+          template:
+            templateRef: account.pl_auto_template_zkgSP
+            versionLabel: v3
