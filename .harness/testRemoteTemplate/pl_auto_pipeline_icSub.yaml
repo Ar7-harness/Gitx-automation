@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_icSub
+  identifier: pl_auto_pipeline_icSub
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_46Rqn
+          identifier: pl_auto_template_46Rqn
+          template:
+            templateRef: account.pl_auto_template_46Rqn
+            versionLabel: v3
