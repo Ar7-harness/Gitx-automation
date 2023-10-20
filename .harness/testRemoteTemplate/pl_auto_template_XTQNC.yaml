@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_XTQNC
+  identifier: pl_auto_template_XTQNC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_58tAJ
+              identifier: pl_auto_template_58tAJ
+              template:
+                templateRef: account.pl_auto_template_58tAJ
+                versionLabel: v3
+                gitBranch: main
