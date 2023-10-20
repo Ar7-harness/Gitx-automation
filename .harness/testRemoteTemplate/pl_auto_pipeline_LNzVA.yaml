@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_LNzVA
+  identifier: pl_auto_pipeline_LNzVA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ximbR
+          identifier: pl_auto_template_ximbR
+          template:
+            templateRef: account.pl_auto_template_ximbR
+            versionLabel: v3
