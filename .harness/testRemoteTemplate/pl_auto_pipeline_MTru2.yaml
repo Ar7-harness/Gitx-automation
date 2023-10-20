@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MTru2
+  identifier: pl_auto_pipeline_MTru2
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gW8rz
+          identifier: pl_auto_template_gW8rz
+          template:
+            templateRef: account.pl_auto_template_gW8rz
+            versionLabel: v3
