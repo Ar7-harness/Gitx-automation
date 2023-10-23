@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_bOSOS
+  identifier: pl_auto_inputset_bOSOS
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_w6anh
+  pipeline:
+    identifier: PipelineAuto_CRUDXyO
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
