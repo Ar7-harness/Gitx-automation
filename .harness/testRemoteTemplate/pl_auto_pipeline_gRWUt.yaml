@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gRWUt
+  identifier: pl_auto_pipeline_gRWUt
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_SlvkF
+          identifier: pl_auto_template_SlvkF
+          template:
+            templateRef: account.pl_auto_template_SlvkF
+            versionLabel: v3
