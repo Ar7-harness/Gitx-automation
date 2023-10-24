@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_auAoX
+  identifier: pl_auto_pipeline_auAoX
+  template:
+    templateRef: account.pl_auto_pipeline_3XZ6Q
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
