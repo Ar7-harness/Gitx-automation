@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_mc3EK
+  identifier: pl_auto_pipeline_mc3EK
+  template:
+    templateRef: account.pl_auto_pipeline_RO13D
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
