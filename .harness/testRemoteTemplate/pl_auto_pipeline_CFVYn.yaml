@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CFVYn
+  identifier: pl_auto_pipeline_CFVYn
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ANaES
+          identifier: pl_auto_template_ANaES
+          template:
+            templateRef: account.pl_auto_template_ANaES
+            versionLabel: v3
