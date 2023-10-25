@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_q63y9
+  identifier: pl_auto_template_q63y9
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Vofuy
+              identifier: pl_auto_template_Vofuy
+              template:
+                templateRef: account.pl_auto_template_Vofuy
+                versionLabel: v3
+                gitBranch: main
