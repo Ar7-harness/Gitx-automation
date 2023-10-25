@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SxSp2
+  identifier: pl_auto_template_SxSp2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0xxmu
+              identifier: pl_auto_template_0xxmu
+              template:
+                templateRef: account.pl_auto_template_0xxmu
+                versionLabel: v3
+                gitBranch: main
