@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FLxvj
+  identifier: pl_auto_template_FLxvj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Buh2n
+              identifier: pl_auto_template_Buh2n
+              template:
+                templateRef: account.pl_auto_template_Buh2n
+                versionLabel: v3
+                gitBranch: main
