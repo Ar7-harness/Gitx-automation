@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_D65X3
+  identifier: pl_auto_template_D65X3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_P3bH0
+              identifier: pl_auto_template_P3bH0
+              template:
+                templateRef: account.pl_auto_template_P3bH0
+                versionLabel: v3
+                gitBranch: main
