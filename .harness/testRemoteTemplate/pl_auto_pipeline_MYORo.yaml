@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MYORo
+  identifier: pl_auto_pipeline_MYORo
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CA2vb
+          identifier: pl_auto_template_CA2vb
+          template:
+            templateRef: account.pl_auto_template_CA2vb
+            versionLabel: v3
