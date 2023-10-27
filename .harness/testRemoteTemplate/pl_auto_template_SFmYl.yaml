@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SFmYl
+  identifier: pl_auto_template_SFmYl
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_6ogft
+              identifier: pl_auto_template_6ogft
+              template:
+                templateRef: account.pl_auto_template_6ogft
+                versionLabel: v3
+                gitBranch: main
