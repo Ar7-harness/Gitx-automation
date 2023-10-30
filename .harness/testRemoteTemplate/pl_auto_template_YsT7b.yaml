@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_YsT7b
+  identifier: pl_auto_template_YsT7b
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CPAXi
+              identifier: pl_auto_template_CPAXi
+              template:
+                templateRef: account.pl_auto_template_CPAXi
+                versionLabel: v3
+                gitBranch: main
