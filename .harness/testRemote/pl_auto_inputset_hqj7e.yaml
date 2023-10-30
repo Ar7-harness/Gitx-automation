@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_i8umZ
+  identifier: pl_auto_inputset_i8umZ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_DzWlP
+  pipeline:
+    identifier: PipelineAuto_CRUDrB1
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
