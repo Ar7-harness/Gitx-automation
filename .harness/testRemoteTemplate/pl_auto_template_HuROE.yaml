@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HuROE
+  identifier: pl_auto_template_HuROE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_23pMt
+              identifier: pl_auto_template_23pMt
+              template:
+                templateRef: account.pl_auto_template_23pMt
+                versionLabel: v3
+                gitBranch: main
