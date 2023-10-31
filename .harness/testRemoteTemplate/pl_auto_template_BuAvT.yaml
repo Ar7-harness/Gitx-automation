@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BuAvT
+  identifier: pl_auto_template_BuAvT
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_G06nl
+              identifier: pl_auto_template_G06nl
+              template:
+                templateRef: account.pl_auto_template_G06nl
+                versionLabel: v3
+                gitBranch: main
