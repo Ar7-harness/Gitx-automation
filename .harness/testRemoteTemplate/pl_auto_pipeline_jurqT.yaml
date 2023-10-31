@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jurqT
+  identifier: pl_auto_pipeline_jurqT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CbZbP
+          identifier: pl_auto_template_CbZbP
+          template:
+            templateRef: account.pl_auto_template_CbZbP
+            versionLabel: v3
