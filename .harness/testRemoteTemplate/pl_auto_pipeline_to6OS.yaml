@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_to6OS
+  identifier: pl_auto_pipeline_to6OS
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_m0jbs
+          identifier: pl_auto_template_m0jbs
+          template:
+            templateRef: account.pl_auto_template_m0jbs
+            versionLabel: v3
