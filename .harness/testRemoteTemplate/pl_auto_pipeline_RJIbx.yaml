@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_RJIbx
+  identifier: pl_auto_pipeline_RJIbx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VDJsx
+          identifier: pl_auto_template_VDJsx
+          template:
+            templateRef: account.pl_auto_template_VDJsx
+            versionLabel: v3
