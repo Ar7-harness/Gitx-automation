@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_UgJNE
+  identifier: pl_auto_pipeline_UgJNE
+  template:
+    templateRef: account.pl_auto_pipeline_WdLGd
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
