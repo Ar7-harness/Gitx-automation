@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_osk3E
+  identifier: pl_auto_template_osk3E
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tax7a
+              identifier: pl_auto_template_tax7a
+              template:
+                templateRef: account.pl_auto_template_tax7a
+                versionLabel: v3
+                gitBranch: main
