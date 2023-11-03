@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_I4dHQ
+  identifier: pl_auto_template_I4dHQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RT2iv
+              identifier: pl_auto_template_RT2iv
+              template:
+                templateRef: account.pl_auto_template_RT2iv
+                versionLabel: v3
+                gitBranch: main
