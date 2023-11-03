@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Lex1d
+  identifier: pl_auto_pipeline_Lex1d
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_uw8TA
+          identifier: pl_auto_template_uw8TA
+          template:
+            templateRef: account.pl_auto_template_uw8TA
+            versionLabel: v3
