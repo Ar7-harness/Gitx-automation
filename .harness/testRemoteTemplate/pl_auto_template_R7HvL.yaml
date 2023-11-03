@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_R7HvL
+  identifier: pl_auto_template_R7HvL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_neApK
+              identifier: pl_auto_template_neApK
+              template:
+                templateRef: account.pl_auto_template_neApK
+                versionLabel: v3
+                gitBranch: main
