@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Byi9D
+  identifier: pl_auto_pipeline_Byi9D
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Szmee
+          identifier: pl_auto_template_Szmee
+          template:
+            templateRef: account.pl_auto_template_Szmee
+            versionLabel: v3
