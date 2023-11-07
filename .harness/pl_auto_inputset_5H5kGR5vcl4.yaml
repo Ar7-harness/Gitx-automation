@@ -1,9 +1,0 @@
-overlayInputSet:
-  name: overpl_auto_inputset_5H5kGR5vcl4
-  identifier: overpl_auto_inputset_5H5kGR5vcl4
-  orgIdentifier: Simlified_Git_sync
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  pipelineIdentifier: pl_auto_pipeline_hJxRG
-  inputSetReferences:
-    - pl_auto_inputset_5H5kGR5vcl4
-  tags: {}
