@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ezkto
+  identifier: pl_auto_template_ezkto
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Njscl
+              identifier: pl_auto_template_Njscl
+              template:
+                templateRef: account.pl_auto_template_Njscl
+                versionLabel: v3
+                gitBranch: main
