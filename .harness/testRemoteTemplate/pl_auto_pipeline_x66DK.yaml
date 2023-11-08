@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_x66DK
+  identifier: pl_auto_pipeline_x66DK
+  template:
+    templateRef: account.pl_auto_pipeline_xFBLL
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
