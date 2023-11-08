@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WUtY2
+  identifier: pl_auto_template_WUtY2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_x2R8i
+              identifier: pl_auto_template_x2R8i
+              template:
+                templateRef: account.pl_auto_template_x2R8i
+                versionLabel: v3
+                gitBranch: main
