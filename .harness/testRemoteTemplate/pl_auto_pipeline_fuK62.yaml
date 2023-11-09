@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_fuK62
+  identifier: pl_auto_pipeline_fuK62
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_S2Duf
+          identifier: pl_auto_template_S2Duf
+          template:
+            templateRef: account.pl_auto_template_S2Duf
+            versionLabel: v3
