@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_hs5PI
+  identifier: pl_auto_pipeline_hs5PI
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_3ggPB
+          identifier: pl_auto_template_3ggPB
+          template:
+            templateRef: account.pl_auto_template_3ggPB
+            versionLabel: v3
