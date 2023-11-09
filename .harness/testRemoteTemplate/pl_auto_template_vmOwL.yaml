@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_vmOwL
+  identifier: pl_auto_template_vmOwL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bTDco
+              identifier: pl_auto_template_bTDco
+              template:
+                templateRef: account.pl_auto_template_bTDco
+                versionLabel: v3
+                gitBranch: main
