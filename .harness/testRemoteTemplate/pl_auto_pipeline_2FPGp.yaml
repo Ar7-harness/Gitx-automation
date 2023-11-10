@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_2FPGp
+  identifier: pl_auto_pipeline_2FPGp
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kOzVV
+          identifier: pl_auto_template_kOzVV
+          template:
+            templateRef: account.pl_auto_template_kOzVV
+            versionLabel: v3
