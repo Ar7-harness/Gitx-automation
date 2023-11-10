@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_igNZc
+  identifier: pl_auto_template_igNZc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_I0UGC
+              identifier: pl_auto_template_I0UGC
+              template:
+                templateRef: account.pl_auto_template_I0UGC
+                versionLabel: v3
+                gitBranch: main
