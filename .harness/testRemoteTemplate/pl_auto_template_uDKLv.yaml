@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_uDKLv
+  identifier: pl_auto_template_uDKLv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_po9bi
+              identifier: pl_auto_template_po9bi
+              template:
+                templateRef: account.pl_auto_template_po9bi
+                versionLabel: v3
+                gitBranch: main
