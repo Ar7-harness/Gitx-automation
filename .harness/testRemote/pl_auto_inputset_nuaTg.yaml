@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_MQF1D
+  identifier: pl_auto_inputset_MQF1D
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_6JIfM
+  pipeline:
+    identifier: pl_auto_pipeline_RpKEj
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
