@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_fV8lF
+  identifier: pl_auto_pipeline_fV8lF
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_86mah
+          identifier: pl_auto_template_86mah
+          template:
+            templateRef: account.pl_auto_template_86mah
+            versionLabel: v3
