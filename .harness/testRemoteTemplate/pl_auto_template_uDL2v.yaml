@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_uDL2v
+  identifier: pl_auto_template_uDL2v
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_no4Xm
+              identifier: pl_auto_template_no4Xm
+              template:
+                templateRef: account.pl_auto_template_no4Xm
+                versionLabel: v3
+                gitBranch: main
