@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_HDnyw
+  identifier: pl_auto_pipeline_HDnyw
+  template:
+    templateRef: account.pl_auto_pipeline_GdSUU
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
