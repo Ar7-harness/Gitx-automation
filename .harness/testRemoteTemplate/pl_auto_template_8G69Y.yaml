@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_8G69Y
+  identifier: pl_auto_template_8G69Y
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_yoJuD
+              identifier: pl_auto_template_yoJuD
+              template:
+                templateRef: account.pl_auto_template_yoJuD
+                versionLabel: v3
+                gitBranch: main
