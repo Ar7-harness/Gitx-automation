@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_783ZF
+  identifier: pl_auto_pipeline_783ZF
+  template:
+    templateRef: account.pl_auto_pipeline_xOuEe
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
