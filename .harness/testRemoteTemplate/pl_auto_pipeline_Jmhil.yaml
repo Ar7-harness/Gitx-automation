@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Jmhil
+  identifier: pl_auto_pipeline_Jmhil
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_8xidI
+          identifier: pl_auto_template_8xidI
+          template:
+            templateRef: account.pl_auto_template_8xidI
+            versionLabel: v3
