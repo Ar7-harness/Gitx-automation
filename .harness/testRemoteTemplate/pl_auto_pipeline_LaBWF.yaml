@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_LaBWF
+  identifier: pl_auto_pipeline_LaBWF
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_G2KBl
+          identifier: pl_auto_template_G2KBl
+          template:
+            templateRef: account.pl_auto_template_G2KBl
+            versionLabel: v3
