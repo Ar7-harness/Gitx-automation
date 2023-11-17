@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_eWBoQ
+  identifier: pl_auto_pipeline_eWBoQ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_D6DuP
+          identifier: pl_auto_template_D6DuP
+          template:
+            templateRef: account.pl_auto_template_D6DuP
+            versionLabel: v3
