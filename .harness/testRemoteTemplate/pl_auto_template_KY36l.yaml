@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KY36l
+  identifier: pl_auto_template_KY36l
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OR2ca
+              identifier: pl_auto_template_OR2ca
+              template:
+                templateRef: account.pl_auto_template_OR2ca
+                versionLabel: v3
+                gitBranch: main
