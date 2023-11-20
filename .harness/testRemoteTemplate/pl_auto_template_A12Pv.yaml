@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_A12Pv
+  identifier: pl_auto_template_A12Pv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_EpqhP
+              identifier: pl_auto_template_EpqhP
+              template:
+                templateRef: account.pl_auto_template_EpqhP
+                versionLabel: v3
+                gitBranch: main
