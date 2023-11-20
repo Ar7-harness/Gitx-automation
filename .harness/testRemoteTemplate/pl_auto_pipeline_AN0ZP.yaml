@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_AN0ZP
-  identifier: pl_auto_pipeline_AN0ZP
-  template:
-    templateRef: account.pl_auto_pipeline_IpXsP
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
