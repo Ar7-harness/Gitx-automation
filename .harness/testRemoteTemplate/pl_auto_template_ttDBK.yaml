@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ttDBK
+  identifier: pl_auto_template_ttDBK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5nuqK
+              identifier: pl_auto_template_5nuqK
+              template:
+                templateRef: account.pl_auto_template_5nuqK
+                versionLabel: v3
+                gitBranch: main
