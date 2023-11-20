@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FT88X
+  identifier: pl_auto_template_FT88X
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OBGlS
+              identifier: pl_auto_template_OBGlS
+              template:
+                templateRef: account.pl_auto_template_OBGlS
+                versionLabel: v3
+                gitBranch: main
