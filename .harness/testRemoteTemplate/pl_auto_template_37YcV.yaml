@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_37YcV
+  identifier: pl_auto_template_37YcV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PjbSd
+              identifier: pl_auto_template_PjbSd
+              template:
+                templateRef: account.pl_auto_template_PjbSd
+                versionLabel: v3
+                gitBranch: main
