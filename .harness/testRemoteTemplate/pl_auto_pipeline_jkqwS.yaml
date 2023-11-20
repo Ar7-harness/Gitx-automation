@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jkqwS
+  identifier: pl_auto_pipeline_jkqwS
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FT88X
+          identifier: pl_auto_template_FT88X
+          template:
+            templateRef: account.pl_auto_template_FT88X
+            versionLabel: v3
