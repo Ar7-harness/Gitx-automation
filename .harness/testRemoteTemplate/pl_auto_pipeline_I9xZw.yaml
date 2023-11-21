@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_I9xZw
+  identifier: pl_auto_pipeline_I9xZw
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CmVAW
+          identifier: pl_auto_template_CmVAW
+          template:
+            templateRef: account.pl_auto_template_CmVAW
+            versionLabel: v3
