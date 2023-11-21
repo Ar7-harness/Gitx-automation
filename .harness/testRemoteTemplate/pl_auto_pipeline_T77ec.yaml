@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_T77ec
+  identifier: pl_auto_pipeline_T77ec
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_QldDd
+          identifier: pl_auto_template_QldDd
+          template:
+            templateRef: account.pl_auto_template_QldDd
+            versionLabel: v3
