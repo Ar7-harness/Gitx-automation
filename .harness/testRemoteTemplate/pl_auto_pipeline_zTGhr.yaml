@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_zTGhr
+  identifier: pl_auto_pipeline_zTGhr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_G70EP
+          identifier: pl_auto_template_G70EP
+          template:
+            templateRef: account.pl_auto_template_G70EP
+            versionLabel: v3
