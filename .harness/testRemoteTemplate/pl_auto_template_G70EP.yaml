@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_G70EP
+  identifier: pl_auto_template_G70EP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_6viI1
+              identifier: pl_auto_template_6viI1
+              template:
+                templateRef: account.pl_auto_template_6viI1
+                versionLabel: v3
+                gitBranch: main
