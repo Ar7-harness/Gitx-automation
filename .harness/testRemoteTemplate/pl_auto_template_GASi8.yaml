@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GASi8
+  identifier: pl_auto_template_GASi8
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_aqG02
+              identifier: pl_auto_template_aqG02
+              template:
+                templateRef: account.pl_auto_template_aqG02
+                versionLabel: v3
+                gitBranch: main
