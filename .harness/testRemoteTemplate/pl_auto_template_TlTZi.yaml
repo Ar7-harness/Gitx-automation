@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_TlTZi
+  identifier: pl_auto_template_TlTZi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_9UiB5
+              identifier: pl_auto_template_9UiB5
+              template:
+                templateRef: account.pl_auto_template_9UiB5
+                versionLabel: v3
+                gitBranch: main
