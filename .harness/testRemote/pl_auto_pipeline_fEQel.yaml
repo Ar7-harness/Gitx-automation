@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_fEQel
+  identifier: pl_auto_pipeline_fEQel
+  projectIdentifier: CDCNGAuto_CustomTrigger_v3g20
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_GhlL3
+          project: CDCNGAuto_CustomTrigger_v3g20
