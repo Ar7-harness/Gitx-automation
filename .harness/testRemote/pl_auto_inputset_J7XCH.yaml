@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_FU1tM
+  identifier: pl_auto_inputset_FU1tM
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GB42A
+  pipeline:
+    identifier: PipelineAuto_CRUDBar
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
