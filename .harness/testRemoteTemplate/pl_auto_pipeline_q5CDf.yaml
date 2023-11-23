@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_q5CDf
+  identifier: pl_auto_pipeline_q5CDf
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FoYt4
+          identifier: pl_auto_template_FoYt4
+          template:
+            templateRef: account.pl_auto_template_FoYt4
+            versionLabel: v3
