@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jFIZY
+  identifier: pl_auto_pipeline_jFIZY
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ThVXe
+          identifier: pl_auto_template_ThVXe
+          template:
+            templateRef: account.pl_auto_template_ThVXe
+            versionLabel: v3
