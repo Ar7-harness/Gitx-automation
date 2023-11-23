@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Ko39W
+  identifier: pl_auto_template_Ko39W
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_rcDcR
+              identifier: pl_auto_template_rcDcR
+              template:
+                templateRef: account.pl_auto_template_rcDcR
+                versionLabel: v3
+                gitBranch: main
