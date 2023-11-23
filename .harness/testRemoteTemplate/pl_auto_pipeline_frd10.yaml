@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_frd10
+  identifier: pl_auto_pipeline_frd10
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_the8Y
+          identifier: pl_auto_template_the8Y
+          template:
+            templateRef: account.pl_auto_template_the8Y
+            versionLabel: v3
