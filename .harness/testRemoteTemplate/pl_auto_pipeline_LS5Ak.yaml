@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_LS5Ak
+  identifier: pl_auto_pipeline_LS5Ak
+  template:
+    templateRef: account.pl_auto_pipeline_HV05e
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
