@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_A6BgK
+  identifier: pl_auto_template_A6BgK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_xURGi
+              identifier: pl_auto_template_xURGi
+              template:
+                templateRef: account.pl_auto_template_xURGi
+                versionLabel: v3
+                gitBranch: main
