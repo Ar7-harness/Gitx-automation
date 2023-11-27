@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_iGUUS
+  identifier: pl_auto_pipeline_iGUUS
+  template:
+    templateRef: account.pl_auto_pipeline_feJiZ
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
