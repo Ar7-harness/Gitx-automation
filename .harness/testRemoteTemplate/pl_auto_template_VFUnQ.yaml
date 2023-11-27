@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_VFUnQ
+  identifier: pl_auto_template_VFUnQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MGdiS
+              identifier: pl_auto_template_MGdiS
+              template:
+                templateRef: account.pl_auto_template_MGdiS
+                versionLabel: v3
+                gitBranch: main
