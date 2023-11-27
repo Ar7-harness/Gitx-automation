@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_txgnU
+  identifier: pl_auto_pipeline_txgnU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FkCu1
+          identifier: pl_auto_template_FkCu1
+          template:
+            templateRef: account.pl_auto_template_FkCu1
+            versionLabel: v3
