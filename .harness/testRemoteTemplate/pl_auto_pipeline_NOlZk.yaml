@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_NOlZk
+  identifier: pl_auto_pipeline_NOlZk
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HArlM
+          identifier: pl_auto_template_HArlM
+          template:
+            templateRef: account.pl_auto_template_HArlM
+            versionLabel: v3
