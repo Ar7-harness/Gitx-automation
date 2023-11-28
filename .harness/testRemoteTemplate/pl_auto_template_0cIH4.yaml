@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_0cIH4
+  identifier: pl_auto_template_0cIH4
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_lwali
+              identifier: pl_auto_template_lwali
+              template:
+                templateRef: account.pl_auto_template_lwali
+                versionLabel: v3
+                gitBranch: main
