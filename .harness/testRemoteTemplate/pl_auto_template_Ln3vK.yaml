@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Ln3vK
+  identifier: pl_auto_template_Ln3vK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_GPUZY
+              identifier: pl_auto_template_GPUZY
+              template:
+                templateRef: account.pl_auto_template_GPUZY
+                versionLabel: v3
+                gitBranch: main
