@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_bSaDc
+  identifier: pl_auto_template_bSaDc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_GNdRx
+              identifier: pl_auto_template_GNdRx
+              template:
+                templateRef: account.pl_auto_template_GNdRx
+                versionLabel: v3
+                gitBranch: main
