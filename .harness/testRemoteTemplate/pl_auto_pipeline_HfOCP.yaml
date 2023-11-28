@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_HfOCP
+  identifier: pl_auto_pipeline_HfOCP
+  template:
+    templateRef: account.pl_auto_pipeline_NOlZk
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
