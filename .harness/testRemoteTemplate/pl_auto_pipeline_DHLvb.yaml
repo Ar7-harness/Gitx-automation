@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DHLvb
+  identifier: pl_auto_pipeline_DHLvb
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_XONkq
+          identifier: pl_auto_template_XONkq
+          template:
+            templateRef: account.pl_auto_template_XONkq
+            versionLabel: v3
