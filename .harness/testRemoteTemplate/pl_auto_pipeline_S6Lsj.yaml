@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_S6Lsj
+  identifier: pl_auto_pipeline_S6Lsj
+  template:
+    templateRef: account.pl_auto_template_RY8d5
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
