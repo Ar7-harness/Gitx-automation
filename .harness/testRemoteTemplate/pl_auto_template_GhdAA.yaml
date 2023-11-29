@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GhdAA
+  identifier: pl_auto_template_GhdAA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_lbTBr
+              identifier: pl_auto_template_lbTBr
+              template:
+                templateRef: account.pl_auto_template_lbTBr
+                versionLabel: v3
+                gitBranch: main
