@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ENPrI
+  identifier: pl_auto_template_ENPrI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_9fqFS
+              identifier: pl_auto_template_9fqFS
+              template:
+                templateRef: account.pl_auto_template_9fqFS
+                versionLabel: v3
+                gitBranch: main
