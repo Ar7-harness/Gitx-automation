@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_NXAOo
+  identifier: pl_auto_pipeline_NXAOo
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_L25dG
+          identifier: pl_auto_template_L25dG
+          template:
+            templateRef: account.pl_auto_template_L25dG
+            versionLabel: v3
