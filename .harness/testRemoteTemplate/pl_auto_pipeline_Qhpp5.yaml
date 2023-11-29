@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_Qhpp5
-  identifier: pl_auto_pipeline_Qhpp5
-  template:
-    templateRef: account.pl_auto_pipeline_7mN3R
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
