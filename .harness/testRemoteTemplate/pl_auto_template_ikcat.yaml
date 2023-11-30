@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ikcat
+  identifier: pl_auto_template_ikcat
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_7QAxT
+              identifier: pl_auto_template_7QAxT
+              template:
+                templateRef: account.pl_auto_template_7QAxT
+                versionLabel: v3
+                gitBranch: main
