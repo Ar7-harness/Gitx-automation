@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_jLEDD
+  identifier: pl_auto_template_jLEDD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_jdZbX
+              identifier: pl_auto_template_jdZbX
+              template:
+                templateRef: account.pl_auto_template_jdZbX
+                versionLabel: v3
+                gitBranch: main
