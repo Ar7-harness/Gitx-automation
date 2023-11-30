@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_WbWn6
+  identifier: pl_auto_pipeline_WbWn6
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ikcat
+          identifier: pl_auto_template_ikcat
+          template:
+            templateRef: account.pl_auto_template_ikcat
+            versionLabel: v3
