@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_YozGJ
+  identifier: pl_auto_template_YozGJ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FM36O
+              identifier: pl_auto_template_FM36O
+              template:
+                templateRef: account.pl_auto_template_FM36O
+                versionLabel: v3
+                gitBranch: main
