@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_rizf7
+  identifier: pl_auto_template_rizf7
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_2bpog
+              identifier: pl_auto_template_2bpog
+              template:
+                templateRef: account.pl_auto_template_2bpog
+                versionLabel: v3
+                gitBranch: main
