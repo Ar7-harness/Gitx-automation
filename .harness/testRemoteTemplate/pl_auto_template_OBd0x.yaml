@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OBd0x
+  identifier: pl_auto_template_OBd0x
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bSQ5Q
+              identifier: pl_auto_template_bSQ5Q
+              template:
+                templateRef: account.pl_auto_template_bSQ5Q
+                versionLabel: v3
+                gitBranch: main
