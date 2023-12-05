@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ESfAa
+  identifier: pl_auto_template_ESfAa
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_yasy2
+              identifier: pl_auto_template_yasy2
+              template:
+                templateRef: account.pl_auto_template_yasy2
+                versionLabel: v3
+                gitBranch: main
