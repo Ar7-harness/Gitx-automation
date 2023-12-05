@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_Zq6ZR
+  identifier: pl_auto_inputset_Zq6ZR
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_a63St
+  pipeline:
+    identifier: PipelineAuto_CRUDS6v
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
