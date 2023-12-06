@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_Jd0mv
+  identifier: pl_auto_inputset_Jd0mv
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_fmbnT
+  pipeline:
+    identifier: pl_auto_pipeline_BMjvP
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
