@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_TPGyu
+  identifier: pl_auto_inputset_TPGyu
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_fmbnT
+  pipeline:
+    identifier: pl_auto_pipeline_7n4uJ
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
