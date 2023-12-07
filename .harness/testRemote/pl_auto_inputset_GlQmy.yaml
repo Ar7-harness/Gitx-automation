@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_TgoQe
+  identifier: pl_auto_inputset_TgoQe
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_i7usE
+  pipeline:
+    identifier: PipelineAuto_CRUDBOb
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
