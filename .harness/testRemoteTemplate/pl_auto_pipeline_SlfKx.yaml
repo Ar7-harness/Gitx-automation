@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_SlfKx
+  identifier: pl_auto_pipeline_SlfKx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_t13aZ
+          identifier: pl_auto_template_t13aZ
+          template:
+            templateRef: account.pl_auto_template_t13aZ
+            versionLabel: v3
