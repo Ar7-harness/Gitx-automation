@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_erGGf
+  identifier: pl_auto_pipeline_erGGf
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Nt59u
+          identifier: pl_auto_template_Nt59u
+          template:
+            templateRef: account.pl_auto_template_Nt59u
+            versionLabel: v3
