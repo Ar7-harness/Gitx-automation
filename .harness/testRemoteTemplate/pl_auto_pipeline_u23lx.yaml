@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_u23lx
+  identifier: pl_auto_pipeline_u23lx
+  template:
+    templateRef: account.pl_auto_pipeline_StOX9
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
