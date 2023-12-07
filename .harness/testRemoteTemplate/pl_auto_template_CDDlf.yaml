@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_CDDlf
+  identifier: pl_auto_template_CDDlf
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_F01Ys
+              identifier: pl_auto_template_F01Ys
+              template:
+                templateRef: account.pl_auto_template_F01Ys
+                versionLabel: v3
+                gitBranch: main
