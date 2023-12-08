@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_ax7th
-  identifier: pl_auto_pipeline_ax7th
-  template:
-    templateRef: account.pl_auto_pipeline_vy0ug
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
