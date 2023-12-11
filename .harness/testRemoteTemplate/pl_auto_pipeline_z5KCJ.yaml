@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_z5KCJ
+  identifier: pl_auto_pipeline_z5KCJ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_sGOpG
+          identifier: pl_auto_template_sGOpG
+          template:
+            templateRef: account.pl_auto_template_sGOpG
+            versionLabel: v3
