@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_FtKRF","identifier":"pl_auto_inputset_FtKRF","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_v6Jiq","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg9b9XkhbgdF"}}}}]}}}
