@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DTCkk
+  identifier: pl_auto_template_DTCkk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qXDWF
+              identifier: pl_auto_template_qXDWF
+              template:
+                templateRef: account.pl_auto_template_qXDWF
+                versionLabel: v3
+                gitBranch: main
