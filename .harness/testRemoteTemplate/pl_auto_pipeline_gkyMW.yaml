@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gkyMW
+  identifier: pl_auto_pipeline_gkyMW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_oasSj
+          identifier: pl_auto_template_oasSj
+          template:
+            templateRef: account.pl_auto_template_oasSj
+            versionLabel: v3
