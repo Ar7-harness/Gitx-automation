@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_aBH68
+  identifier: pl_auto_template_aBH68
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zBeDW
+              identifier: pl_auto_template_zBeDW
+              template:
+                templateRef: account.pl_auto_template_zBeDW
+                versionLabel: v3
+                gitBranch: main
