@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_AwsMt
+  identifier: pl_auto_pipeline_AwsMt
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_zH5LE
+          identifier: pl_auto_template_zH5LE
+          template:
+            templateRef: account.pl_auto_template_zH5LE
+            versionLabel: v3
