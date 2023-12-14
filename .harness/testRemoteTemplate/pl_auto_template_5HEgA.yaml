@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_5HEgA
+  identifier: pl_auto_template_5HEgA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dwOtC
+              identifier: pl_auto_template_dwOtC
+              template:
+                templateRef: account.pl_auto_template_dwOtC
+                versionLabel: v3
+                gitBranch: main
