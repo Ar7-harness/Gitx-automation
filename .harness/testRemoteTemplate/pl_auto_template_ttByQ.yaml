@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ttByQ
+  identifier: pl_auto_template_ttByQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TWlSM
+              identifier: pl_auto_template_TWlSM
+              template:
+                templateRef: account.pl_auto_template_TWlSM
+                versionLabel: v3
+                gitBranch: main
