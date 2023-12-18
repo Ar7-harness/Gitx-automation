@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_Ovphs
+  identifier: pl_auto_inputset_Ovphs
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_xTkGy
+  pipeline:
+    identifier: PipelineAuto_CRUDUQi
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
