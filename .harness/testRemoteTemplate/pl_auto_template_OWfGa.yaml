@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OWfGa
+  identifier: pl_auto_template_OWfGa
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_sPnyX
+              identifier: pl_auto_template_sPnyX
+              template:
+                templateRef: account.pl_auto_template_sPnyX
+                versionLabel: v3
+                gitBranch: main
