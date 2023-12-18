@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_20VL3
+  identifier: pl_auto_inputset_20VL3
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_qNt1l
+  pipeline:
+    identifier: PipelineAuto_CRUDQp6
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
