@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_aquID
+  identifier: pl_auto_inputset_aquID
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_UQ2PZ
+  pipeline:
+    identifier: PipelineAuto_CRUDGPt
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
