@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_M2J3o
+  identifier: pl_auto_inputset_M2J3o
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_R4klc
+  pipeline:
+    identifier: PipelineAuto_CRUDMKi
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
