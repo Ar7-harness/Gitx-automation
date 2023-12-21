@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_TXiga","identifier":"pl_auto_inputset_TXiga","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_hwIK8","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgJ4Z2z08INP"}}}}]}}}
