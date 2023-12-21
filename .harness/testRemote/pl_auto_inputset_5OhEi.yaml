@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_Us81D
+  identifier: pl_auto_inputset_Us81D
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_zWgkX
+  pipeline:
+    identifier: PipelineAuto_CRUDrBh
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
