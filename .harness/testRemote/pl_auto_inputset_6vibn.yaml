@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_CyZbJ
+  identifier: pl_auto_inputset_CyZbJ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_B5bpj
+  pipeline:
+    identifier: PipelineAuto_CRUDhYr
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
