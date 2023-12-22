@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_qOpPL
+  identifier: pl_auto_pipeline_qOpPL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_waMAO
+          identifier: pl_auto_template_waMAO
+          template:
+            templateRef: account.pl_auto_template_waMAO
+            versionLabel: v3
