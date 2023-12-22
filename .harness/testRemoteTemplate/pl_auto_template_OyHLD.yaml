@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OyHLD
+  identifier: pl_auto_template_OyHLD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3UkAO
+              identifier: pl_auto_template_3UkAO
+              template:
+                templateRef: account.pl_auto_template_3UkAO
+                versionLabel: v3
+                gitBranch: main
