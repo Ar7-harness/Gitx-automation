@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_waMAO
+  identifier: pl_auto_template_waMAO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_LxtJv
+              identifier: pl_auto_template_LxtJv
+              template:
+                templateRef: account.pl_auto_template_LxtJv
+                versionLabel: v3
+                gitBranch: main
