@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_rxlh4
+  identifier: pl_auto_pipeline_rxlh4
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VUBMe
+          identifier: pl_auto_template_VUBMe
+          template:
+            templateRef: account.pl_auto_template_VUBMe
+            versionLabel: v3
