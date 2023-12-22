@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ZprJO
+  identifier: pl_auto_pipeline_ZprJO
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_wNSmn
+          identifier: pl_auto_template_wNSmn
+          template:
+            templateRef: account.pl_auto_template_wNSmn
+            versionLabel: v3
