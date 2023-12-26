@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_BDCyy
-  identifier: pl_auto_pipeline_BDCyy
-  template:
-    templateRef: account.pl_auto_pipeline_KPO2Z
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
