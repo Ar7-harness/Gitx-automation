@@ -1,0 +1,22 @@
+pipeline:
+  name: custom_remote_pipe
+  identifier: custom_remote_pipe
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: shell_script
+                  identifier: shell_script
+                  template:
+                    templateRef: account.GitsyncTemplate_LO5Xy
+                    versionLabel: v3
+        tags: {}
