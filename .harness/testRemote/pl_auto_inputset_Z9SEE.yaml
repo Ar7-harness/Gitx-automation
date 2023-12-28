@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_Lw0lD
+  identifier: pl_auto_inputset_Lw0lD
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomTrigger_KBBEE
+  pipeline:
+    identifier: pl_auto_pipeline_0auub
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
