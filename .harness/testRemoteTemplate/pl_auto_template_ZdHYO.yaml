@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ZdHYO
+  identifier: pl_auto_template_ZdHYO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qPO2X
+              identifier: pl_auto_template_qPO2X
+              template:
+                templateRef: account.pl_auto_template_qPO2X
+                versionLabel: v3
+                gitBranch: main
