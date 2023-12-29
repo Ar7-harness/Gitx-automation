@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QRuKN
+  identifier: pl_auto_template_QRuKN
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PwAEA
+              identifier: pl_auto_template_PwAEA
+              template:
+                templateRef: account.pl_auto_template_PwAEA
+                versionLabel: v3
+                gitBranch: main
