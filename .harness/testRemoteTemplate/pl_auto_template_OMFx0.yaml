@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OMFx0
+  identifier: pl_auto_template_OMFx0
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Yu440
+              identifier: pl_auto_template_Yu440
+              template:
+                templateRef: account.pl_auto_template_Yu440
+                versionLabel: v3
+                gitBranch: main
