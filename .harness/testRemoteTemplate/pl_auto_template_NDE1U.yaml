@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_NDE1U
+  identifier: pl_auto_template_NDE1U
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_2ufvD
+              identifier: pl_auto_template_2ufvD
+              template:
+                templateRef: account.pl_auto_template_2ufvD
+                versionLabel: v3
+                gitBranch: main
