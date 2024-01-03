@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Pu51t
+  identifier: pl_auto_template_Pu51t
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_c97zT
+              identifier: pl_auto_template_c97zT
+              template:
+                templateRef: account.pl_auto_template_c97zT
+                versionLabel: v3
+                gitBranch: main
