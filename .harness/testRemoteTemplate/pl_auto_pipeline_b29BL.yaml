@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_b29BL
+  identifier: pl_auto_pipeline_b29BL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Pu51t
+          identifier: pl_auto_template_Pu51t
+          template:
+            templateRef: account.pl_auto_template_Pu51t
+            versionLabel: v3
