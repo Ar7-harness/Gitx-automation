@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_xpTus
+  identifier: pl_auto_pipeline_xpTus
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_d6oIV
+          identifier: pl_auto_template_d6oIV
+          template:
+            templateRef: account.pl_auto_template_d6oIV
+            versionLabel: v3
