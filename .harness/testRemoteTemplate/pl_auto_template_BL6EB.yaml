@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BL6EB
+  identifier: pl_auto_template_BL6EB
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_st32h
+              identifier: pl_auto_template_st32h
+              template:
+                templateRef: account.pl_auto_template_st32h
+                versionLabel: v3
+                gitBranch: main
