@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_O79Ps
+  identifier: pl_auto_pipeline_O79Ps
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CTrBr
+          identifier: pl_auto_template_CTrBr
+          template:
+            templateRef: account.pl_auto_template_CTrBr
+            versionLabel: v3
