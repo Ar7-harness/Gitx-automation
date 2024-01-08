@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_GaigP
-  identifier: pl_auto_pipeline_GaigP
-  template:
-    templateRef: account.pl_auto_pipeline_31JJU
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
