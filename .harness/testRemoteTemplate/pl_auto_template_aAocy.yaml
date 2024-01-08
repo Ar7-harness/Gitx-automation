@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_aAocy
+  identifier: pl_auto_template_aAocy
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qvTWI
+              identifier: pl_auto_template_qvTWI
+              template:
+                templateRef: account.pl_auto_template_qvTWI
+                versionLabel: v3
+                gitBranch: main
