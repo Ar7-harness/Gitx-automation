@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_8laBc
+  identifier: pl_auto_pipeline_8laBc
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VyEKi
+          identifier: pl_auto_template_VyEKi
+          template:
+            templateRef: account.pl_auto_template_VyEKi
+            versionLabel: v3
