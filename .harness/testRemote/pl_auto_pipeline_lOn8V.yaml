@@ -1,0 +1,29 @@
+pipeline:
+  name: pl_auto_pipeline_lOn8V
+  identifier: pl_auto_pipeline_lOn8V
+  projectIdentifier: CDCNGAuto_CustomTrigger_v4rVt
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: { }
+  stages:
+      - stage:
+          name: S1
+          identifier: S1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    template:
+                      templateRef: org.pl_auto_template_nvO6K
+                      versionLabel: v3
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: <+input>
+          tags: { }
