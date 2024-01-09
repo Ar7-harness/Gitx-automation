@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Fpnq7
+  identifier: pl_auto_template_Fpnq7
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_c1iAr
+              identifier: pl_auto_template_c1iAr
+              template:
+                templateRef: account.pl_auto_template_c1iAr
+                versionLabel: v3
+                gitBranch: main
