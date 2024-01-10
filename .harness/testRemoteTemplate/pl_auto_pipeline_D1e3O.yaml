@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_D1e3O
+  identifier: pl_auto_pipeline_D1e3O
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_eSftk
+          identifier: pl_auto_template_eSftk
+          template:
+            templateRef: account.pl_auto_template_eSftk
+            versionLabel: v3
