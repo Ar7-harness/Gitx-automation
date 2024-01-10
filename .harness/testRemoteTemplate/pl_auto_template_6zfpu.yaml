@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_6zfpu
+  identifier: pl_auto_template_6zfpu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_02v1E
+              identifier: pl_auto_template_02v1E
+              template:
+                templateRef: account.pl_auto_template_02v1E
+                versionLabel: v3
+                gitBranch: main
