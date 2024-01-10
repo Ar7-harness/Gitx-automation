@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_EIupA
+  identifier: pl_auto_pipeline_EIupA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Cl4JR
+          identifier: pl_auto_template_Cl4JR
+          template:
+            templateRef: account.pl_auto_template_Cl4JR
+            versionLabel: v3
