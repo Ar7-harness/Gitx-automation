@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_FJ1Ot
+  identifier: pl_auto_pipeline_FJ1Ot
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_6zfpu
+          identifier: pl_auto_template_6zfpu
+          template:
+            templateRef: account.pl_auto_template_6zfpu
+            versionLabel: v3
