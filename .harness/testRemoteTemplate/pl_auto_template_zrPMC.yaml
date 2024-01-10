@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_zrPMC
+  identifier: pl_auto_template_zrPMC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_LMNZd
+              identifier: pl_auto_template_LMNZd
+              template:
+                templateRef: account.pl_auto_template_LMNZd
+                versionLabel: v3
+                gitBranch: main
