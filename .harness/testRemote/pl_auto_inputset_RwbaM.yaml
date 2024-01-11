@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_xOhhK","identifier":"pl_auto_inputset_xOhhK","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_e9PC7","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNgqRqr6kGkjH"}}}}]}}}
