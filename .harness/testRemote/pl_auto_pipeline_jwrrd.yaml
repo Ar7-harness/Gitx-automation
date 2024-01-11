@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_jwrrd
+  identifier: pl_auto_pipeline_jwrrd
+  projectIdentifier: CDCNGAuto_CustomTrigger_jJfb9
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_pdiu4
+          project: CDCNGAuto_CustomTrigger_jJfb9
