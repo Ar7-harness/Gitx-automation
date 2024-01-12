@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_bWXEm
+  identifier: pl_auto_template_bWXEm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NgquL
+              identifier: pl_auto_template_NgquL
+              template:
+                templateRef: account.pl_auto_template_NgquL
+                versionLabel: v3
+                gitBranch: main
