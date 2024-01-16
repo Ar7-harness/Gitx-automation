@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_x3McE
+  identifier: pl_auto_template_x3McE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RZFPS
+              identifier: pl_auto_template_RZFPS
+              template:
+                templateRef: account.pl_auto_template_RZFPS
+                versionLabel: v3
+                gitBranch: main
