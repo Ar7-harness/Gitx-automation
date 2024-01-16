@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_bNoUI
+  identifier: pl_auto_pipeline_bNoUI
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_MLXKN
+          identifier: pl_auto_template_MLXKN
+          template:
+            templateRef: account.pl_auto_template_MLXKN
+            versionLabel: v3
