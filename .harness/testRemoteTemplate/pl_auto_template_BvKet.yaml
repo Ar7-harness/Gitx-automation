@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BvKet
+  identifier: pl_auto_template_BvKet
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4aVBE
+              identifier: pl_auto_template_4aVBE
+              template:
+                templateRef: account.pl_auto_template_4aVBE
+                versionLabel: v3
+                gitBranch: main
