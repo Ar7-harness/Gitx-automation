@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_zhpGv
+  identifier: pl_auto_pipeline_zhpGv
+  template:
+    templateRef: account.pl_auto_pipeline_PGigI
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
