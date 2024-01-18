@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_gvdpj
+  identifier: pl_auto_pipeline_gvdpj
+  template:
+    templateRef: account.pl_auto_pipeline_bXQV1
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
