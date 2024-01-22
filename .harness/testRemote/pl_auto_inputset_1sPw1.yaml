@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_bRyUK
+  identifier: pl_auto_inputset_bRyUK
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_KIDbE
+  pipeline:
+    identifier: PipelineAuto_CRUDI8C
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
