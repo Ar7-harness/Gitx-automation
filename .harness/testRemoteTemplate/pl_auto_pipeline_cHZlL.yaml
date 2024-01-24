@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_cHZlL
+  identifier: pl_auto_pipeline_cHZlL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_UiDXZ
+          identifier: pl_auto_template_UiDXZ
+          template:
+            templateRef: account.pl_auto_template_UiDXZ
+            versionLabel: v3
