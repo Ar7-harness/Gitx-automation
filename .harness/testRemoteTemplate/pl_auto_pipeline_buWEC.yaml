@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_buWEC
+  identifier: pl_auto_pipeline_buWEC
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_bgQfm
+          identifier: pl_auto_template_bgQfm
+          template:
+            templateRef: account.pl_auto_template_bgQfm
+            versionLabel: v3
