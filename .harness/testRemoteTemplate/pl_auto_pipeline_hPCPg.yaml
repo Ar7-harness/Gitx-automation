@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_hPCPg
+  identifier: pl_auto_pipeline_hPCPg
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_fviQW
+          identifier: pl_auto_template_fviQW
+          template:
+            templateRef: account.pl_auto_template_fviQW
+            versionLabel: v3
