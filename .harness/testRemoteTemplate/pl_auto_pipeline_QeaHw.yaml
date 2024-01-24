@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_QeaHw
+  identifier: pl_auto_pipeline_QeaHw
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_4fXJ5
+          identifier: pl_auto_template_4fXJ5
+          template:
+            templateRef: account.pl_auto_template_4fXJ5
+            versionLabel: v3
