@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_bgQfm
+  identifier: pl_auto_template_bgQfm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_cEfkr
+              identifier: pl_auto_template_cEfkr
+              template:
+                templateRef: account.pl_auto_template_cEfkr
+                versionLabel: v3
+                gitBranch: main
