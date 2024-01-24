@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Hahmh
+  identifier: pl_auto_pipeline_Hahmh
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ccAUn
+          identifier: pl_auto_template_ccAUn
+          template:
+            templateRef: account.pl_auto_template_ccAUn
+            versionLabel: v3
