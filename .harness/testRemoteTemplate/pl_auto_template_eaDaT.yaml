@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eaDaT
+  identifier: pl_auto_template_eaDaT
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ndwja
+              identifier: pl_auto_template_ndwja
+              template:
+                templateRef: account.pl_auto_template_ndwja
+                versionLabel: v3
+                gitBranch: main
