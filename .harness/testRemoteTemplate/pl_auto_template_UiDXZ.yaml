@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_UiDXZ
+  identifier: pl_auto_template_UiDXZ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MoACr
+              identifier: pl_auto_template_MoACr
+              template:
+                templateRef: account.pl_auto_template_MoACr
+                versionLabel: v3
+                gitBranch: main
