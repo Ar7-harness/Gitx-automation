@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: s1
         identifier: s1
-        description: Desc Added
+        description: Desc Added g1C3dJ
         type: Approval
         spec:
           execution:
