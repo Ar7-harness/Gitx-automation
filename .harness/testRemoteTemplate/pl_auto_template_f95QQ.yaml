@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_f95QQ
+  identifier: pl_auto_template_f95QQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Wd72A
+              identifier: pl_auto_template_Wd72A
+              template:
+                templateRef: account.pl_auto_template_Wd72A
+                versionLabel: v3
+                gitBranch: main
