@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_JBTqB
-  identifier: pl_auto_pipeline_JBTqB
-  template:
-    templateRef: account.pl_auto_pipeline_qulMG
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
