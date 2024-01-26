@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_41XW2
+  identifier: pl_auto_pipeline_41XW2
+  template:
+    templateRef: account.pl_auto_pipeline_wt2a7
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
