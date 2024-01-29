@@ -1,0 +1,44 @@
+pipeline:
+  name: pl_auto_pipeline_M8B6T
+  identifier: pl_auto_pipeline_M8B6T
+  projectIdentifier: CDCNGAuto_CustomTrigger_J9CBs
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://raghavendramurali.pr2.harness.io/gateway/pipeline/api/webhook/custom/m0Mr2RwyS86MRR2JSmUm3A/v3?accountIdentifier=ou1O5zuGS6y0e8OPuRAN3w&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomTrigger_J9CBs&pipelineIdentifier=pl_auto_pipeline_j0GnN&triggerIdentifier=CDNGAuto_Trigger_DoQHdvz4LK
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: X-HARNESS-TRIGGER-ID
+                        value: CDNGAuto_Trigger_DoQHdvz4LK
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: |-
+                      {
+                          "id": "USA",
+                          "locations": [
+                              {
+                                  "city": "SF"
+                              },
+                              {
+                                  "city": "LV"
+                              }
+                          ],
+                          "name": "user"
+                      }
+                  timeout: 10m
+        tags: {}
