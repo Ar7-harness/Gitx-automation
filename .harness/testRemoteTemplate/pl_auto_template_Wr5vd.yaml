@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Wr5vd
+  identifier: pl_auto_template_Wr5vd
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DNNOR
+              identifier: pl_auto_template_DNNOR
+              template:
+                templateRef: account.pl_auto_template_DNNOR
+                versionLabel: v3
+                gitBranch: main
