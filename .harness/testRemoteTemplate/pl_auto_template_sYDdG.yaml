@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sYDdG
+  identifier: pl_auto_template_sYDdG
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_l01jJ
+              identifier: pl_auto_template_l01jJ
+              template:
+                templateRef: account.pl_auto_template_l01jJ
+                versionLabel: v3
+                gitBranch: main
