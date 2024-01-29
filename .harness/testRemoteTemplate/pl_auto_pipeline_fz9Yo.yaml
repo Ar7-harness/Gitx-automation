@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_fz9Yo
-  identifier: pl_auto_pipeline_fz9Yo
-  template:
-    templateRef: account.pl_auto_pipeline_yEmok
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
