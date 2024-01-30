@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WNPd0
+  identifier: pl_auto_template_WNPd0
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bt9zQ
+              identifier: pl_auto_template_bt9zQ
+              template:
+                templateRef: account.pl_auto_template_bt9zQ
+                versionLabel: v3
+                gitBranch: main
