@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_X6V3y
+  identifier: pl_auto_pipeline_X6V3y
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_JdoIO
+          identifier: pl_auto_template_JdoIO
+          template:
+            templateRef: account.pl_auto_template_JdoIO
+            versionLabel: v3
