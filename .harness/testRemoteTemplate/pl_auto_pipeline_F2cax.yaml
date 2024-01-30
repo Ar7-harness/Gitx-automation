@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_F2cax
+  identifier: pl_auto_pipeline_F2cax
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Ttvj9
+          identifier: pl_auto_template_Ttvj9
+          template:
+            templateRef: account.pl_auto_template_Ttvj9
+            versionLabel: v3
