@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_JdoIO
+  identifier: pl_auto_template_JdoIO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0cGJf
+              identifier: pl_auto_template_0cGJf
+              template:
+                templateRef: account.pl_auto_template_0cGJf
+                versionLabel: v3
+                gitBranch: main
