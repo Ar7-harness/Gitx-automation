@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_dlXpi
+  identifier: pl_auto_pipeline_dlXpi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_COKjL
+          identifier: pl_auto_template_COKjL
+          template:
+            templateRef: account.pl_auto_template_COKjL
+            versionLabel: v3
