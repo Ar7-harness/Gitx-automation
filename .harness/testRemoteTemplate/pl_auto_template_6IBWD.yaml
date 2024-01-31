@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_6IBWD
+  identifier: pl_auto_template_6IBWD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_1i3wl
+              identifier: pl_auto_template_1i3wl
+              template:
+                templateRef: account.pl_auto_template_1i3wl
+                versionLabel: v3
+                gitBranch: main
