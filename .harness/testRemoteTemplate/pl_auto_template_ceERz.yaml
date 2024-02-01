@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ceERz
+  identifier: pl_auto_template_ceERz
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vRiwl
+              identifier: pl_auto_template_vRiwl
+              template:
+                templateRef: account.pl_auto_template_vRiwl
+                versionLabel: v3
+                gitBranch: main
