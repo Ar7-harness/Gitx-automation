@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_TNLXV
-  identifier: pl_auto_pipeline_TNLXV
-  template:
-    templateRef: account.pl_auto_pipeline_o3MZp
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
