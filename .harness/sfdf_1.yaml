@@ -1,0 +1,22 @@
+template:
+  name: sfdf
+  identifier: sfdf
+  versionLabel: "1"
+  type: Stage
+  tags: {}
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: d1
+              identifier: d1
+              template:
+                templateRef: account.pl_auto_template_RtxuX
+                versionLabel: v3
+                templateInputs:
+                  type: HarnessApproval
+                  spec:
+                    approvers:
+                      userGroups: <+input>
