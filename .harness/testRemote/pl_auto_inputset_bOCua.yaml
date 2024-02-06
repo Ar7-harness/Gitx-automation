@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_Cey8v","identifier":"pl_auto_inputset_Cey8v","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_pKXNv","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg4nXq7At6ll"}}}}]}}}
