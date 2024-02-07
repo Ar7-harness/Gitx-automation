@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_VQGru
+  identifier: pl_auto_pipeline_VQGru
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_hm0PF
+          identifier: pl_auto_template_hm0PF
+          template:
+            templateRef: account.pl_auto_template_hm0PF
+            versionLabel: v3
