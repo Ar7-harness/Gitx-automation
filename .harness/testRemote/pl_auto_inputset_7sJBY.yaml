@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_nydr0","identifier":"pl_auto_inputset_nydr0","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_RQv2R","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg0xGtWMRx0L"}}}}]}}}
