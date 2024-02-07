@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WxMyc
+  identifier: pl_auto_template_WxMyc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ydse5
+              identifier: pl_auto_template_ydse5
+              template:
+                templateRef: account.pl_auto_template_ydse5
+                versionLabel: v3
+                gitBranch: main
