@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_jRJPa
+  identifier: pl_auto_pipeline_jRJPa
+  template:
+    templateRef: account.pl_auto_pipeline_s8BKV
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
