@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3cvDB
+  identifier: pl_auto_pipeline_3cvDB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Rg79G
+          identifier: pl_auto_template_Rg79G
+          template:
+            templateRef: account.pl_auto_template_Rg79G
+            versionLabel: v3
