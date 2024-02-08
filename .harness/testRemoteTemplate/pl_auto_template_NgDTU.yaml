@@ -1,0 +1,25 @@
+template:
+  name: pl_auto_template_NgDTU
+  identifier: pl_auto_template_NgDTU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s2
+          identifier: s2
+          template:
+            templateRef: account.pl_auto_template_bp6zN
+            versionLabel: v3
+            templateInputs:
+              type: Approval
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: stage
+                        type: HarnessApproval
+                        spec:
+                          approvers:
+                            userGroups: <+input>
