@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Hycpk
+  identifier: pl_auto_template_Hycpk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_pzCgn
+              identifier: pl_auto_template_pzCgn
+              template:
+                templateRef: account.pl_auto_template_pzCgn
+                versionLabel: v3
+                gitBranch: main
