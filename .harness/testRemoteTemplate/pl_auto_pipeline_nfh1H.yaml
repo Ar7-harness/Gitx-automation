@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_nfh1H
+  identifier: pl_auto_pipeline_nfh1H
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_hB72U
+          identifier: pl_auto_template_hB72U
+          template:
+            templateRef: account.pl_auto_template_hB72U
+            versionLabel: v3
