@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_YALxU
+  identifier: pl_auto_pipeline_YALxU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_o4DPk
+          identifier: pl_auto_template_o4DPk
+          template:
+            templateRef: account.pl_auto_template_o4DPk
+            versionLabel: v3
