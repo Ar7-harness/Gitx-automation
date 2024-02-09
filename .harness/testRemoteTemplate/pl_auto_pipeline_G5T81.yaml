@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_G5T81
+  identifier: pl_auto_pipeline_G5T81
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kttw0
+          identifier: pl_auto_template_kttw0
+          template:
+            templateRef: account.pl_auto_template_kttw0
+            versionLabel: v3
