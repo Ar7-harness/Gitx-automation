@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_VwFMA
+  identifier: pl_auto_inputset_VwFMA
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_CzIAa
+  pipeline:
+    identifier: pl_auto_pipeline_qATIa
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
