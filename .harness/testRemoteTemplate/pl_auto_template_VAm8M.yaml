@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_VAm8M
+  identifier: pl_auto_template_VAm8M
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qH8VM
+              identifier: pl_auto_template_qH8VM
+              template:
+                templateRef: account.pl_auto_template_qH8VM
+                versionLabel: v3
+                gitBranch: main
