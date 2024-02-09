@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_13dsk
+  identifier: pl_auto_template_13dsk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_efZ3V
+              identifier: pl_auto_template_efZ3V
+              template:
+                templateRef: account.pl_auto_template_efZ3V
+                versionLabel: v3
+                gitBranch: main
