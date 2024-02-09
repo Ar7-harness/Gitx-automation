@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_3JHzZ","identifier":"pl_auto_inputset_3JHzZ","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_RemoteGcrTriggerTestKsi5M","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNglPXPgrXqSi"}}}}]}}}
