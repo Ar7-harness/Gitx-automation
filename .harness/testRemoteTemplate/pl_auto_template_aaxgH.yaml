@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_aaxgH
+  identifier: pl_auto_template_aaxgH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BaCAY
+              identifier: pl_auto_template_BaCAY
+              template:
+                templateRef: account.pl_auto_template_BaCAY
+                versionLabel: v3
+                gitBranch: main
