@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_zgnMJ
+  identifier: pl_auto_inputset_zgnMJ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_rWrDT
+  pipeline:
+    identifier: PipelineAuto_CRUDDAU
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
