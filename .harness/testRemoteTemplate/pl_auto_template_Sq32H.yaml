@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Sq32H
+  identifier: pl_auto_template_Sq32H
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_f9qTp
+              identifier: pl_auto_template_f9qTp
+              template:
+                templateRef: account.pl_auto_template_f9qTp
+                versionLabel: v3
+                gitBranch: main
