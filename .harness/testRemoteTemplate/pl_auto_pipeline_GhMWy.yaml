@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GhMWy
+  identifier: pl_auto_pipeline_GhMWy
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Wagqy
+          identifier: pl_auto_template_Wagqy
+          template:
+            templateRef: account.pl_auto_template_Wagqy
+            versionLabel: v3
