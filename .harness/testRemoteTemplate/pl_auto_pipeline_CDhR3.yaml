@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CDhR3
+  identifier: pl_auto_pipeline_CDhR3
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_LI9ai
+          identifier: pl_auto_template_LI9ai
+          template:
+            templateRef: account.pl_auto_template_LI9ai
+            versionLabel: v3
