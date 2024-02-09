@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_uDaWT
+  identifier: pl_auto_pipeline_uDaWT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_DyrYK
+          identifier: pl_auto_template_DyrYK
+          template:
+            templateRef: account.pl_auto_template_DyrYK
+            versionLabel: v3
