@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_wQefb
+  identifier: pl_auto_template_wQefb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KFYLY
+              identifier: pl_auto_template_KFYLY
+              template:
+                templateRef: account.pl_auto_template_KFYLY
+                versionLabel: v3
+                gitBranch: main
