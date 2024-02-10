@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_8ti2g
+  identifier: pl_auto_pipeline_8ti2g
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_UyxbP
+          identifier: pl_auto_template_UyxbP
+          template:
+            templateRef: account.pl_auto_template_UyxbP
+            versionLabel: v3
