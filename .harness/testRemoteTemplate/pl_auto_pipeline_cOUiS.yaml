@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_cOUiS
-  identifier: pl_auto_pipeline_cOUiS
-  template:
-    templateRef: account.pl_auto_pipeline_vf9Yh
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
