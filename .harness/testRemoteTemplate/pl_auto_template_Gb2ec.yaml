@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Gb2ec
+  identifier: pl_auto_template_Gb2ec
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_unEDa
+              identifier: pl_auto_template_unEDa
+              template:
+                templateRef: account.pl_auto_template_unEDa
+                versionLabel: v3
+                gitBranch: main
