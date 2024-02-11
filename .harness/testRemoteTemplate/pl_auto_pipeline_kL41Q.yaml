@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_kL41Q
+  identifier: pl_auto_pipeline_kL41Q
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Uf2i6
+          identifier: pl_auto_template_Uf2i6
+          template:
+            templateRef: account.pl_auto_template_Uf2i6
+            versionLabel: v3
