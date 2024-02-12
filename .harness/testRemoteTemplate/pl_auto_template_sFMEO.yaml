@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sFMEO
+  identifier: pl_auto_template_sFMEO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KhTVF
+              identifier: pl_auto_template_KhTVF
+              template:
+                templateRef: account.pl_auto_template_KhTVF
+                versionLabel: v3
+                gitBranch: main
