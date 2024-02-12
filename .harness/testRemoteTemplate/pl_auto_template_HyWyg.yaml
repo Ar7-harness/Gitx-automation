@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HyWyg
+  identifier: pl_auto_template_HyWyg
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_8H793
+              identifier: pl_auto_template_8H793
+              template:
+                templateRef: account.pl_auto_template_8H793
+                versionLabel: v3
+                gitBranch: main
