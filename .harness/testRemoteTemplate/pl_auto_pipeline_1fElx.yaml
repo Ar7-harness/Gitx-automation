@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_1fElx
+  identifier: pl_auto_pipeline_1fElx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HyWyg
+          identifier: pl_auto_template_HyWyg
+          template:
+            templateRef: account.pl_auto_template_HyWyg
+            versionLabel: v3
