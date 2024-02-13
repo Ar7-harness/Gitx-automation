@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_O7RRY
+  identifier: pl_auto_pipeline_O7RRY
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Faas6
+          identifier: pl_auto_template_Faas6
+          template:
+            templateRef: account.pl_auto_template_Faas6
+            versionLabel: v3
