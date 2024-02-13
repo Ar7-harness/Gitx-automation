@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_BeRIx
+  identifier: pl_auto_pipeline_BeRIx
+  template:
+    templateRef: account.pl_auto_pipeline_eSHMM
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
