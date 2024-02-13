@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Faas6
+  identifier: pl_auto_template_Faas6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FkndD
+              identifier: pl_auto_template_FkndD
+              template:
+                templateRef: account.pl_auto_template_FkndD
+                versionLabel: v3
+                gitBranch: main
