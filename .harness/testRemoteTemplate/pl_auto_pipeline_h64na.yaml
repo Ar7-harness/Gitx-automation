@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_h64na
-  identifier: pl_auto_pipeline_h64na
-  template:
-    templateRef: account.pl_auto_pipeline_zAwjw
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
