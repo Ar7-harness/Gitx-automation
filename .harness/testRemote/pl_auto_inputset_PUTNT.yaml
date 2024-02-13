@@ -1,1 +1,0 @@
-{"inputSet":{"name":"pl_auto_inputset_RDVdE","identifier":"pl_auto_inputset_RDVdE","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_RemoteGcrTriggerTest5I2H0","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNghF5ibNrfPM"}}}}]}}}
