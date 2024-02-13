@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mEnE8
+  identifier: pl_auto_template_mEnE8
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_F6OxW
+              identifier: pl_auto_template_F6OxW
+              template:
+                templateRef: account.pl_auto_template_F6OxW
+                versionLabel: v3
+                gitBranch: main
