@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Gdzxr
+  identifier: pl_auto_pipeline_Gdzxr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_MoMhI
+          identifier: pl_auto_template_MoMhI
+          template:
+            templateRef: account.pl_auto_template_MoMhI
+            versionLabel: v3
