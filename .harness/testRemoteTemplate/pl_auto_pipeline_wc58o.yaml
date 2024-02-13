@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_wc58o
-  identifier: pl_auto_pipeline_wc58o
-  template:
-    templateRef: account.pl_auto_pipeline_4Xa2t
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
