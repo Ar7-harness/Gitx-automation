@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gARGY
+  identifier: pl_auto_pipeline_gARGY
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Oao2L
+          identifier: pl_auto_template_Oao2L
+          template:
+            templateRef: account.pl_auto_template_Oao2L
+            versionLabel: v3
