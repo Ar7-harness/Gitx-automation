@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_5ppM4
+  identifier: pl_auto_template_5ppM4
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_IUhnq
+              identifier: pl_auto_template_IUhnq
+              template:
+                templateRef: account.pl_auto_template_IUhnq
+                versionLabel: v3
+                gitBranch: main
