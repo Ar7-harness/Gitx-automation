@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Du8Xm
+  identifier: pl_auto_pipeline_Du8Xm
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_BEhVN
+          identifier: pl_auto_template_BEhVN
+          template:
+            templateRef: account.pl_auto_template_BEhVN
+            versionLabel: v3
