@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GOaVi
+  identifier: pl_auto_pipeline_GOaVi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_vXozs
+          identifier: pl_auto_template_vXozs
+          template:
+            templateRef: account.pl_auto_template_vXozs
+            versionLabel: v3
