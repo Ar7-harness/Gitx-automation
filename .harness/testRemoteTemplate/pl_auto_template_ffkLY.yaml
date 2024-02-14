@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ffkLY
+  identifier: pl_auto_template_ffkLY
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_AaHdl
+              identifier: pl_auto_template_AaHdl
+              template:
+                templateRef: account.pl_auto_template_AaHdl
+                versionLabel: v3
+                gitBranch: main
