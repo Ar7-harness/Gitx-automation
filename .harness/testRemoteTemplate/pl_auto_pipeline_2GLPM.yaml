@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_2GLPM
+  identifier: pl_auto_pipeline_2GLPM
+  template:
+    templateRef: account.pl_auto_pipeline_4Z5sV
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
