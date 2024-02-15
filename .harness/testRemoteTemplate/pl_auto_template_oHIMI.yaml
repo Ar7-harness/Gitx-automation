@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oHIMI
+  identifier: pl_auto_template_oHIMI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SPsMN
+              identifier: pl_auto_template_SPsMN
+              template:
+                templateRef: account.pl_auto_template_SPsMN
+                versionLabel: v3
+                gitBranch: main
