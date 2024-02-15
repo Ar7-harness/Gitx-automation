@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_kcRmU
-  identifier: pl_auto_pipeline_kcRmU
-  template:
-    templateRef: account.pl_auto_pipeline_VB6Vo
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
