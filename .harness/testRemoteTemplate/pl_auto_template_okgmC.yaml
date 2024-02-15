@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_okgmC
+  identifier: pl_auto_template_okgmC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_J2vwq
+              identifier: pl_auto_template_J2vwq
+              template:
+                templateRef: account.pl_auto_template_J2vwq
+                versionLabel: v3
+                gitBranch: main
