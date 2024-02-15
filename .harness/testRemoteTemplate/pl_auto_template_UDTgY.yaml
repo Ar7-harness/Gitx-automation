@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_UDTgY
+  identifier: pl_auto_template_UDTgY
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MdFMn
+              identifier: pl_auto_template_MdFMn
+              template:
+                templateRef: account.pl_auto_template_MdFMn
+                versionLabel: v3
+                gitBranch: main
