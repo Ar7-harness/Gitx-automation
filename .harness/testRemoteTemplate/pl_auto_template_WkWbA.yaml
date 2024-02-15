@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WkWbA
+  identifier: pl_auto_template_WkWbA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dgOio
+              identifier: pl_auto_template_dgOio
+              template:
+                templateRef: account.pl_auto_template_dgOio
+                versionLabel: v3
+                gitBranch: main
