@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_RzDhK
-  identifier: pl_auto_pipeline_RzDhK
-  template:
-    templateRef: account.pl_auto_pipeline_y8etK
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
