@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_VB6Vo
+  identifier: pl_auto_pipeline_VB6Vo
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_okgmC
+          identifier: pl_auto_template_okgmC
+          template:
+            templateRef: account.pl_auto_template_okgmC
+            versionLabel: v3
