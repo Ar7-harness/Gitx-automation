@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_d1uQo
-  identifier: pl_auto_pipeline_d1uQo
-  template:
-    templateRef: account.pl_auto_pipeline_KlwWU
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
