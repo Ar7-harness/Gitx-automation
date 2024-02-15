@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_nD7si
+  identifier: pl_auto_template_nD7si
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ZClBP
+              identifier: pl_auto_template_ZClBP
+              template:
+                templateRef: account.pl_auto_template_ZClBP
+                versionLabel: v3
+                gitBranch: main
