@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GDCED
+  identifier: pl_auto_template_GDCED
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Ugp3V
+              identifier: pl_auto_template_Ugp3V
+              template:
+                templateRef: account.pl_auto_template_Ugp3V
+                versionLabel: v3
+                gitBranch: main
