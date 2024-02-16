@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Z99OK
+  identifier: pl_auto_template_Z99OK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_eBnmQ
+              identifier: pl_auto_template_eBnmQ
+              template:
+                templateRef: account.pl_auto_template_eBnmQ
+                versionLabel: v3
+                gitBranch: main
