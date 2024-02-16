@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WjSP4
+  identifier: pl_auto_template_WjSP4
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zBF8m
+              identifier: pl_auto_template_zBF8m
+              template:
+                templateRef: account.pl_auto_template_zBF8m
+                versionLabel: v3
+                gitBranch: main
