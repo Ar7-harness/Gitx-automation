@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cdM1E
+  identifier: pl_auto_template_cdM1E
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_U20pU
+              identifier: pl_auto_template_U20pU
+              template:
+                templateRef: account.pl_auto_template_U20pU
+                versionLabel: v3
+                gitBranch: main
