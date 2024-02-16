@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_oeqDP
+  identifier: pl_auto_pipeline_oeqDP
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_LbyZl
+          identifier: pl_auto_template_LbyZl
+          template:
+            templateRef: account.pl_auto_template_LbyZl
+            versionLabel: v3
