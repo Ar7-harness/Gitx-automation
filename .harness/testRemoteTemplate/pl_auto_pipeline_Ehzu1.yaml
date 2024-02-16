@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_Ehzu1
-  identifier: pl_auto_pipeline_Ehzu1
-  template:
-    templateRef: account.pl_auto_pipeline_9aFkZ
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
