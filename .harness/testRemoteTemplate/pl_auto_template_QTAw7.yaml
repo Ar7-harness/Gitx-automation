@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QTAw7
+  identifier: pl_auto_template_QTAw7
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_8qePu
+              identifier: pl_auto_template_8qePu
+              template:
+                templateRef: account.pl_auto_template_8qePu
+                versionLabel: v3
+                gitBranch: main
