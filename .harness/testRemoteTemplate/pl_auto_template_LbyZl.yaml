@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LbyZl
+  identifier: pl_auto_template_LbyZl
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_fCV6K
+              identifier: pl_auto_template_fCV6K
+              template:
+                templateRef: account.pl_auto_template_fCV6K
+                versionLabel: v3
+                gitBranch: main
