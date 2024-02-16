@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OgPRo
+  identifier: pl_auto_pipeline_OgPRo
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_OPvH3
+          identifier: pl_auto_template_OPvH3
+          template:
+            templateRef: account.pl_auto_template_OPvH3
+            versionLabel: v3
