@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QUL75
+  identifier: pl_auto_template_QUL75
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Bx2Ul
+              identifier: pl_auto_template_Bx2Ul
+              template:
+                templateRef: account.pl_auto_template_Bx2Ul
+                versionLabel: v3
+                gitBranch: main
