@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_NMpcy
+  identifier: pl_auto_template_NMpcy
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_gYzSF
+              identifier: pl_auto_template_gYzSF
+              template:
+                templateRef: account.pl_auto_template_gYzSF
+                versionLabel: v3
+                gitBranch: main
