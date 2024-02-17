@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_AeZCM
+  identifier: pl_auto_pipeline_AeZCM
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_R6zML
+          identifier: pl_auto_template_R6zML
+          template:
+            templateRef: account.pl_auto_template_R6zML
+            versionLabel: v3
