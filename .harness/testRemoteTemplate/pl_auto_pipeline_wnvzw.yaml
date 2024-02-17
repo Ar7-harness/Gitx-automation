@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_wnvzw
+  identifier: pl_auto_pipeline_wnvzw
+  template:
+    templateRef: account.pl_auto_pipeline_ctMOL
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
