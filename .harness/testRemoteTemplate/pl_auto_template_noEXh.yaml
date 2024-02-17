@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_noEXh
+  identifier: pl_auto_template_noEXh
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_HJD6m
+              identifier: pl_auto_template_HJD6m
+              template:
+                templateRef: account.pl_auto_template_HJD6m
+                versionLabel: v3
+                gitBranch: main
