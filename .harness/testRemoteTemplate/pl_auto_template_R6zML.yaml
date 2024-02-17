@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_R6zML
+  identifier: pl_auto_template_R6zML
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_nTvCU
+              identifier: pl_auto_template_nTvCU
+              template:
+                templateRef: account.pl_auto_template_nTvCU
+                versionLabel: v3
+                gitBranch: main
