@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_yFuRC
+  identifier: pl_auto_pipeline_yFuRC
+  template:
+    templateRef: account.pl_auto_pipeline_oEier
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
