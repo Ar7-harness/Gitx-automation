@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Lha9F
+  identifier: pl_auto_pipeline_Lha9F
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_noEXh
+          identifier: pl_auto_template_noEXh
+          template:
+            templateRef: account.pl_auto_template_noEXh
+            versionLabel: v3
