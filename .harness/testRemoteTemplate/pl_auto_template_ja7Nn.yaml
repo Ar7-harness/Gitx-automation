@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ja7Nn
+  identifier: pl_auto_template_ja7Nn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_lGLxA
+              identifier: pl_auto_template_lGLxA
+              template:
+                templateRef: account.pl_auto_template_lGLxA
+                versionLabel: v3
+                gitBranch: main
