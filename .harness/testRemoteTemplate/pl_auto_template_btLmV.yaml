@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_btLmV
+  identifier: pl_auto_template_btLmV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MwZnE
+              identifier: pl_auto_template_MwZnE
+              template:
+                templateRef: account.pl_auto_template_MwZnE
+                versionLabel: v3
+                gitBranch: main
