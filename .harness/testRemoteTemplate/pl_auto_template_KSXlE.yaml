@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KSXlE
+  identifier: pl_auto_template_KSXlE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FyBZf
+              identifier: pl_auto_template_FyBZf
+              template:
+                templateRef: account.pl_auto_template_FyBZf
+                versionLabel: v3
+                gitBranch: main
