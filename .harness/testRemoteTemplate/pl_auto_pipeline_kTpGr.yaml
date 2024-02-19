@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_kTpGr
+  identifier: pl_auto_pipeline_kTpGr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_qYeur
+          identifier: pl_auto_template_qYeur
+          template:
+            templateRef: account.pl_auto_template_qYeur
+            versionLabel: v3
