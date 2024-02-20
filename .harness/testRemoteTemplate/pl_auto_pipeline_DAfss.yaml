@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DAfss
+  identifier: pl_auto_pipeline_DAfss
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ZHOkT
+          identifier: pl_auto_template_ZHOkT
+          template:
+            templateRef: account.pl_auto_template_ZHOkT
+            versionLabel: v3
