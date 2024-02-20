@@ -1,0 +1,1 @@
+{"inputSet":{"name":"pl_auto_inputset_2ikKd","identifier":"pl_auto_inputset_2ikKd","orgIdentifier":"DoNotDeleteTriggerOrg","projectIdentifier":"CDCNGAuto_RemoteGcrTriggerTest4ZNlh","pipeline":{"identifier":"pipeline","stages":[{"stage":{"identifier":"stage","type":"Deployment","spec":{"service":{"serviceRef":"ServNg8XSyjYKzri"}}}}]}}}
