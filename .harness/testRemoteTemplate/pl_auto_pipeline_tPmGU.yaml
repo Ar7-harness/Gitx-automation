@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_tPmGU
+  identifier: pl_auto_pipeline_tPmGU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gxSDP
+          identifier: pl_auto_template_gxSDP
+          template:
+            templateRef: account.pl_auto_template_gxSDP
+            versionLabel: v3
