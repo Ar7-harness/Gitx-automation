@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Mngry
+  identifier: pl_auto_template_Mngry
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_C1akG
+              identifier: pl_auto_template_C1akG
+              template:
+                templateRef: account.pl_auto_template_C1akG
+                versionLabel: v3
+                gitBranch: main
