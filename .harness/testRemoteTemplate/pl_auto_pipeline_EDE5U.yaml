@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_EDE5U
+  identifier: pl_auto_pipeline_EDE5U
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_BysNF
+          identifier: pl_auto_template_BysNF
+          template:
+            templateRef: account.pl_auto_template_BysNF
+            versionLabel: v3
