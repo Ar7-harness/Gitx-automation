@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_gxSDP
+  identifier: pl_auto_template_gxSDP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_wFClW
+              identifier: pl_auto_template_wFClW
+              template:
+                templateRef: account.pl_auto_template_wFClW
+                versionLabel: v3
+                gitBranch: main
