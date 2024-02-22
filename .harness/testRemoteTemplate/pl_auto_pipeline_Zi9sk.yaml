@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Zi9sk
+  identifier: pl_auto_pipeline_Zi9sk
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ouql3
+          identifier: pl_auto_template_ouql3
+          template:
+            templateRef: account.pl_auto_template_ouql3
+            versionLabel: v3
