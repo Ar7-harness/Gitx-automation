@@ -64,6 +64,8 @@ pipeline:
                         outputVariables: []
                       timeout: 10m
             tags: {}
+            when:
+              pipelineStatus: All
     - parallel:
         - stage:
             name: stage2
@@ -91,6 +93,9 @@ pipeline:
               org: Ng_Pipelines_K8s_Organisations
               pipeline: APIcallPipeline
               project: Do_Not_Delete_Prakhar
+              inputs: {}
+            when:
+              pipelineStatus: All
     - stage:
         name: stage3
         identifier: stage3
@@ -150,4 +155,6 @@ pipeline:
                     outputVariables: []
                   timeout: 10m
         tags: {}
+        when:
+          pipelineStatus: All
   allowStageExecutions: true
