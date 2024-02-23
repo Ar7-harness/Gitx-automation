@@ -4,3 +4,23 @@ pipeline:
   projectIdentifier: Do_Not_Delete_Prakhar
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   tags: {}
+  stages:
+    - stage:
+        name: stage1
+        identifier: stage1
+        tags: {}
+        template:
+          templateRef: stageremotedifbranch1
+          versionLabel: v1
+          gitBranch: PRSourceCopy_BusQqKL4C1
+          templateInputs:
+            type: Deployment
+            spec:
+              environment:
+                environmentRef: <+input>
+                environmentInputs: <+input>
+                serviceOverrideInputs: <+input>
+                infrastructureDefinitions: <+input>
+              service:
+                serviceRef: <+input>
+                serviceInputs: <+input>
