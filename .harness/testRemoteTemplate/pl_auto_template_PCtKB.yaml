@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_PCtKB
+  identifier: pl_auto_template_PCtKB
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4RDeO
+              identifier: pl_auto_template_4RDeO
+              template:
+                templateRef: account.pl_auto_template_4RDeO
+                versionLabel: v3
+                gitBranch: main
