@@ -1,0 +1,47 @@
+template:
+  name: stageremotedifbranch1
+  identifier: stageremotedifbranch1
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: Do_Not_Delete_Prakhar
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Ssh
+      environment:
+        environmentRef: <+input>
+        deployToAll: false
+        environmentInputs: <+input>
+        serviceOverrideInputs: <+input>
+        infrastructureDefinitions: <+input>
+      service:
+        serviceRef: <+input>
+        serviceInputs: <+input>
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: |
+                      echo this is test
+                      pipelineIdentifier=<+pipeline.identifier>
+                      curl 'https://qa.harness.io/gateway/pipeline/api/pipeline/execute/stagesExecutionList?routingId=OgiB4-xETamKNVAz-wQRjw&accountIdentifier=OgiB4-xETamKNVAz-wQRjw&orgIdentifier=Ng_Pipelines_K8s_Organisations&projectIdentifier=Do_Not_Delete_Prakhar&pipelineIdentifier=$(pipelineIdentifier)&branch=GitX_bKBTp&repoIdentifier=Gitx-automation&parentEntityConnectorRef=account.github_Account_level_connector&parentEntityRepoName=Gitx-automation' \
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
+        rollbackSteps: []
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
