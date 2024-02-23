@@ -1,0 +1,46 @@
+pipeline:
+  name: APIcallPipeline
+  identifier: APIcallPipeline
+  projectIdentifier: Do_Not_Delete_Prakhar
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: api_check
+        identifier: api_check
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: |-
+                          curl 'https://qa.harness.io/gateway/pipeline/api/pipeline/execute/stagesExecutionList?routingId=OgiB4-xETamKNVAz-wQRjw&accountIdentifier=OgiB4-xETamKNVAz-wQRjw&orgIdentifier=Ng_Pipelines_K8s_Organisations&projectIdentifier=Do_Not_Delete_Prakhar&pipelineIdentifier=API_BugBashPipeline3&branch=GitX_bKBTp&repoIdentifier=Gitx-automation&parentEntityConnectorRef=account.github_Account_level_connector&parentEntityRepoName=Gitx-automation' \
+                            -H 'authority: qa.harness.io' \
+                            -H 'accept: */*' \
+                            -H 'accept-language: en-GB,en;q=0.9' \
+                            -H 'cookie: __stripe_mid=3db3e180-91a6-4d50-891d-712faef3f663ba624c; routingId=65d6fb54dd30912c92b64e36; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdXRoVG9rZW4iOiI2NWQ2ZmI1NGRkMzA5MTJjOTJiNjRlMzUiLCJpc3MiOiJIYXJuZXNzIEluYyIsImV4cCI6MTcwODY3NDI2MCwiZW52IjoiZ2F0ZXdheSIsImlhdCI6MTcwODU4NzgwMH0.9Dl-NPcvHrAlo9YU7YI_wtTPBqxb25BT0z7ghPL8k4c; __stripe_sid=9bd693af-03d5-4d94-97d4-9739f0866d98118510' \
+                            -H 'load-from-cache: true' \
+                            -H 'referer: https://qa.harness.io/ng/account/OgiB4-xETamKNVAz-wQRjw/home/orgs/Ng_Pipelines_K8s_Organisations/projects/Do_Not_Delete_Prakhar/pipelines/API_BugBashPipeline3/pipeline-studio/?storeType=REMOTE&connectorRef=account.github_Account_level_connector&repoName=Gitx-automation&branch=GitX_bKBTp' \
+                            -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Brave";v="120"' \
+                            -H 'sec-ch-ua-mobile: ?0' \
+                            -H 'sec-ch-ua-platform: "macOS"' \
+                            -H 'sec-fetch-dest: empty' \
+                            -H 'sec-fetch-mode: cors' \
+                            -H 'sec-fetch-site: same-origin' \
+                            -H 'sec-gpc: 1' \
+                            -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+                            --compressed
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
