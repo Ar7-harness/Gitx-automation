@@ -64,23 +64,33 @@ pipeline:
                         outputVariables: []
                       timeout: 10m
             tags: {}
-    - stage:
-        name: stage2
-        identifier: stage2
-        tags: {}
-        template:
-          templateRef: stageremotedifbranch2
-          versionLabel: v1
-          gitBranch: PRSourceCopy_C1y525yiLJ
-          templateInputs:
-            type: Deployment
+    - parallel:
+        - stage:
+            name: stage2
+            identifier: stage2
+            tags: {}
+            template:
+              templateRef: stageremotedifbranch2
+              versionLabel: v1
+              gitBranch: PRSourceCopy_C1y525yiLJ
+              templateInputs:
+                type: Deployment
+                spec:
+                  environment:
+                    useFromStage:
+                      stage: stage1
+                  service:
+                    useFromStage:
+                      stage: stage1
+        - stage:
+            name: call_summary
+            identifier: call_summary
+            description: ""
+            type: Pipeline
             spec:
-              environment:
-                useFromStage:
-                  stage: stage1
-              service:
-                useFromStage:
-                  stage: stage1
+              org: Ng_Pipelines_K8s_Organisations
+              pipeline: APIcallPipeline
+              project: Do_Not_Delete_Prakhar
     - stage:
         name: stage3
         identifier: stage3
