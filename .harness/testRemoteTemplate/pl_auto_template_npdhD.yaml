@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_npdhD
+  identifier: pl_auto_template_npdhD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_A39R1
+              identifier: pl_auto_template_A39R1
+              template:
+                templateRef: account.pl_auto_template_A39R1
+                versionLabel: v3
+                gitBranch: main
