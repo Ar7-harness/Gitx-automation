@@ -24,3 +24,20 @@ pipeline:
               service:
                 serviceRef: <+input>
                 serviceInputs: <+input>
+    - stage:
+        name: stage2
+        identifier: stage2
+        tags: {}
+        template:
+          templateRef: stageremotedifbranch2
+          versionLabel: v1
+          gitBranch: PRSourceCopy_C1y525yiLJ
+          templateInputs:
+            type: Deployment
+            spec:
+              environment:
+                useFromStage:
+                  stage: stage1
+              service:
+                useFromStage:
+                  stage: stage1
