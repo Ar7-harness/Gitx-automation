@@ -41,3 +41,20 @@ pipeline:
               service:
                 useFromStage:
                   stage: stage1
+    - stage:
+        name: stage3
+        identifier: stage3
+        tags: {}
+        template:
+          templateRef: stageremotedifbranch3
+          versionLabel: v1
+          gitBranch: PRSourceCopy_CfrCjB4JL0
+          templateInputs:
+            type: Deployment
+            spec:
+              environment:
+                useFromStage:
+                  stage: stage1
+              service:
+                useFromStage:
+                  stage: stage1
