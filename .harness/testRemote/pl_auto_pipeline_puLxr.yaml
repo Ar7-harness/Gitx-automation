@@ -3,28 +3,42 @@ pipeline:
   identifier: pl_auto_pipeline_puLxr
   orgIdentifier: Simlified_Git_sync
   projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  tags: { }
+  tags: {}
   stages:
-      - stage:
-          name: S1
-          identifier: S1
-          description: ""
-          type: Custom
-          spec:
-            execution:
-              steps:
-                - step:
-                    type: ShellScript
-                    name: Shell Script_1
-                    identifier: ShellScript_1
-                    spec:
-                      shell: Bash
-                      onDelegate: true
-                      source:
-                        type: Inline
-                        spec:
-                          script: <+input>
-                      environmentVariables: [ ]
-                      outputVariables: [ ]
-                    timeout: 1m
-          tags: { }
+    - stage:
+        name: S1
+        identifier: S1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: Shell Script_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    onDelegate: true
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 1m
+              - step:
+                  type: ShellScript
+                  name: ShellScript_2
+                  identifier: ShellScript_2
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo 'hi'
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
