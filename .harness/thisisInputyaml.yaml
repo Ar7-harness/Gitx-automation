@@ -1,0 +1,21 @@
+inputSet:
+  pipeline:
+    identifier: API_BugBashPipeline3
+    stages:
+      - parallel:
+          - stage:
+              identifier: stage1
+              template:
+                templateInputs:
+                  type: Deployment
+                  spec:
+                    environment:
+                      environmentRef: asdfcasd
+                      infrastructureDefinitions:
+                        - identifier: sdfv
+                    service:
+                      serviceRef: account.ServNgNSwxw9AtCN
+  name: thisisInputyaml
+  identifier: thisisInputyaml
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: Do_Not_Delete_Prakhar
