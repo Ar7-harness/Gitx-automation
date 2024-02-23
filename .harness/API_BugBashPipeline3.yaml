@@ -1,0 +1,6 @@
+pipeline:
+  name: API_BugBashPipeline3
+  identifier: API_BugBashPipeline3
+  projectIdentifier: Do_Not_Delete_Prakhar
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
