@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MdyPD
+  identifier: pl_auto_template_MdyPD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_27ZpR
+              identifier: pl_auto_template_27ZpR
+              template:
+                templateRef: account.pl_auto_template_27ZpR
+                versionLabel: v3
+                gitBranch: main
