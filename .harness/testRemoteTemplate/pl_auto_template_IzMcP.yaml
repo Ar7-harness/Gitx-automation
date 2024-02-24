@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_IzMcP
+  identifier: pl_auto_template_IzMcP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_2ktOB
+              identifier: pl_auto_template_2ktOB
+              template:
+                templateRef: account.pl_auto_template_2ktOB
+                versionLabel: v3
+                gitBranch: main
