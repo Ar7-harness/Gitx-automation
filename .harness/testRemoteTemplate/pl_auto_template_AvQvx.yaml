@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AvQvx
+  identifier: pl_auto_template_AvQvx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Deois
+              identifier: pl_auto_template_Deois
+              template:
+                templateRef: account.pl_auto_template_Deois
+                versionLabel: v3
+                gitBranch: main
