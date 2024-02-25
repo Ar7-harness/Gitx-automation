@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_At98g
+  identifier: pl_auto_template_At98g
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_erlfh
+              identifier: pl_auto_template_erlfh
+              template:
+                templateRef: account.pl_auto_template_erlfh
+                versionLabel: v3
+                gitBranch: main
