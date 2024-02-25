@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_Blwie
+  identifier: pl_auto_pipeline_Blwie
+  template:
+    templateRef: account.pl_auto_pipeline_Xe58I
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
