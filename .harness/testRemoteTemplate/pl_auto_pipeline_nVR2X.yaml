@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_nVR2X
+  identifier: pl_auto_pipeline_nVR2X
+  template:
+    templateRef: account.pl_auto_pipeline_0tODa
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
