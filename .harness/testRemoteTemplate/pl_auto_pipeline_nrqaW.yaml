@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_nrqaW
+  identifier: pl_auto_pipeline_nrqaW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FB0nP
+          identifier: pl_auto_template_FB0nP
+          template:
+            templateRef: account.pl_auto_template_FB0nP
+            versionLabel: v3
