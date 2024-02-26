@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dRlLr
+  identifier: pl_auto_template_dRlLr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_aRmNg
+              identifier: pl_auto_template_aRmNg
+              template:
+                templateRef: account.pl_auto_template_aRmNg
+                versionLabel: v3
+                gitBranch: main
