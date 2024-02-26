@@ -1,7 +1,0 @@
-environment:
-  name: env_prj_ar7
-  identifier: env_prj_ar7
-  accountId: rXUXvbFqRr2XwcjBu3Oq-Q
-  orgIdentifier: default
-  projectIdentifier: ar7test
-  type: Production
