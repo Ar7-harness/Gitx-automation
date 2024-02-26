@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_D2cmX
+  identifier: pl_auto_template_D2cmX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zgoRo
+              identifier: pl_auto_template_zgoRo
+              template:
+                templateRef: account.pl_auto_template_zgoRo
+                versionLabel: v3
+                gitBranch: main
