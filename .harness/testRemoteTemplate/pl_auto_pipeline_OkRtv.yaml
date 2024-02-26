@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OkRtv
+  identifier: pl_auto_pipeline_OkRtv
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Dejwf
+          identifier: pl_auto_template_Dejwf
+          template:
+            templateRef: account.pl_auto_template_Dejwf
+            versionLabel: v3
