@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_Remwn
+  identifier: pl_auto_inputset_Remwn
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTest9i99i
+  pipeline:
+    identifier: PipelineAuto_CRUDvFe
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
