@@ -1,3 +1,6 @@
 service:
   name: ser_acc_ar7
   identifier: ser_acc_ar7
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
