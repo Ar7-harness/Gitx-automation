@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_g0rGx
+  identifier: pl_auto_pipeline_g0rGx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_LgVUm
+          identifier: pl_auto_template_LgVUm
+          template:
+            templateRef: account.pl_auto_template_LgVUm
+            versionLabel: v3
