@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_msKWP
+  identifier: pl_auto_template_msKWP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NSkiu
+              identifier: pl_auto_template_NSkiu
+              template:
+                templateRef: account.pl_auto_template_NSkiu
+                versionLabel: v3
+                gitBranch: main
