@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_EXrtk
+  identifier: pl_auto_template_EXrtk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_2cYvi
+              identifier: pl_auto_template_2cYvi
+              template:
+                templateRef: account.pl_auto_template_2cYvi
+                versionLabel: v3
+                gitBranch: main
