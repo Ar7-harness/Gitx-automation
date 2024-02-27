@@ -1,5 +1,5 @@
 environment:
+  name: NGPipeAutoCrNiSYsolm
   identifier: NGPipeAutoCrNiSYsolm
   tags: {}
-  name: NGPipeAutoCrNiSYsolm
-  type: PreProduction
+  type: Production
