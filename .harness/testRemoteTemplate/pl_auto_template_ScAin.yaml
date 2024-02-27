@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ScAin
+  identifier: pl_auto_template_ScAin
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dE7Bi
+              identifier: pl_auto_template_dE7Bi
+              template:
+                templateRef: account.pl_auto_template_dE7Bi
+                versionLabel: v3
+                gitBranch: main
