@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_b8V60
+  identifier: pl_auto_pipeline_b8V60
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RckGU
+          identifier: pl_auto_template_RckGU
+          template:
+            templateRef: account.pl_auto_template_RckGU
+            versionLabel: v3
