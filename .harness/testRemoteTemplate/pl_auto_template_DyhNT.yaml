@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DyhNT
+  identifier: pl_auto_template_DyhNT
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mpmNO
+              identifier: pl_auto_template_mpmNO
+              template:
+                templateRef: account.pl_auto_template_mpmNO
+                versionLabel: v3
+                gitBranch: main
