@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Xswip
+  identifier: pl_auto_pipeline_Xswip
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_z9ypJ
+          identifier: pl_auto_template_z9ypJ
+          template:
+            templateRef: account.pl_auto_template_z9ypJ
+            versionLabel: v3
