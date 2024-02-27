@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FScFE
+  identifier: pl_auto_template_FScFE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_XHMCn
+              identifier: pl_auto_template_XHMCn
+              template:
+                templateRef: account.pl_auto_template_XHMCn
+                versionLabel: v3
+                gitBranch: main
