@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_qenqw
+  identifier: pl_auto_pipeline_qenqw
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_EXrtk
+          identifier: pl_auto_template_EXrtk
+          template:
+            templateRef: account.pl_auto_template_EXrtk
+            versionLabel: v3
