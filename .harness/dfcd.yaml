@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: dfcd
+  identifier: dfcd
+  environmentRef: NGPipeAutoVmxycxwIXj
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.CItestK8sConnectorjjltRzj1oW
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
