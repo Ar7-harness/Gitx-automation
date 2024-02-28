@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MYzPg
+  identifier: pl_auto_pipeline_MYzPg
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_18IMB
+          identifier: pl_auto_template_18IMB
+          template:
+            templateRef: account.pl_auto_template_18IMB
+            versionLabel: v3
