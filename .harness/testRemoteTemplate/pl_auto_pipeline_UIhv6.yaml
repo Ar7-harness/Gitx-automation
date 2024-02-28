@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_UIhv6
-  identifier: pl_auto_pipeline_UIhv6
-  template:
-    templateRef: account.pl_auto_pipeline_KxM2C
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
