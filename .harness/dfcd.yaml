@@ -6,6 +6,6 @@ infrastructureDefinition:
   type: KubernetesDirect
   spec:
     connectorRef: account.CItestK8sConnectorjjltRzj1oW
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
