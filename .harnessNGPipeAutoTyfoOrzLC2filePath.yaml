@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoTyfoOrzLC2
-  tags: {}
   name: NGPipeAutoTyfoOrzLC2
-  type: PreProduction
+  identifier: NGPipeAutoTyfoOrzLC2
+  tags: {
+    }
+  type: Production
