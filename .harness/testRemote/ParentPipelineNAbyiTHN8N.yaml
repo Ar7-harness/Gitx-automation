@@ -13,3 +13,11 @@ pipeline:
           org: Simlified_Git_sync
           pipeline: pl_auto_pipeline_vGliv
           project: SimplifiedGitSync_Do_Not_Delete
+    - stage:
+        name: s2
+        identifier: stage2
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_vGliv
+          project: SimplifiedGitSync_Do_Not_Delete
