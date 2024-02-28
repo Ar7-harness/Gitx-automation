@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FWgSL
+  identifier: pl_auto_template_FWgSL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_H1Yad
+              identifier: pl_auto_template_H1Yad
+              template:
+                templateRef: account.pl_auto_template_H1Yad
+                versionLabel: v3
+                gitBranch: main
