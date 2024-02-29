@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoOUghyEjThx
-  tags: {}
   name: NGPipeAutoOUghyEjThx
-  type: PreProduction
+  identifier: NGPipeAutoOUghyEjThx
+  tags: {
+    }
+  type: Production
