@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_3EGCe
+  identifier: pl_auto_template_3EGCe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KKEvU
+              identifier: pl_auto_template_KKEvU
+              template:
+                templateRef: account.pl_auto_template_KKEvU
+                versionLabel: v3
+                gitBranch: main
