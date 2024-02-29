@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoQLC1fV85pi
-  tags: {}
   name: NGPipeAutoQLC1fV85pi
-  type: PreProduction
+  identifier: NGPipeAutoQLC1fV85pi
+  tags: {
+    }
+  type: Production
