@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutompBZPxQCrv
-  tags: {}
   name: NGPipeAutompBZPxQCrv
-  type: PreProduction
+  identifier: NGPipeAutompBZPxQCrv
+  tags: {
+    }
+  type: Production
