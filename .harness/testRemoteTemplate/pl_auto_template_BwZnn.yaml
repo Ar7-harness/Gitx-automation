@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BwZnn
+  identifier: pl_auto_template_BwZnn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_sfSBE
+              identifier: pl_auto_template_sfSBE
+              template:
+                templateRef: account.pl_auto_template_sfSBE
+                versionLabel: v3
+                gitBranch: main
