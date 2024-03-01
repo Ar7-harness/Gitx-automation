@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoLg56xHsJVB
-  tags: {}
   name: NGPipeAutoLg56xHsJVB
-  type: PreProduction
+  identifier: NGPipeAutoLg56xHsJVB
+  tags: {
+    }
+  type: Production
