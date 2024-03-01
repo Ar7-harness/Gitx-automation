@@ -1,0 +1,6 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  identifier: NGPipeAutojldm3MiC80
+  tags: {}
+  name: NGPipeAutojldm3MiC80
+  type: PreProduction
