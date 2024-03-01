@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_PzAHS
+  identifier: pl_auto_pipeline_PzAHS
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_dgTAB
+          identifier: pl_auto_template_dgTAB
+          template:
+            templateRef: account.pl_auto_template_dgTAB
+            versionLabel: v3
