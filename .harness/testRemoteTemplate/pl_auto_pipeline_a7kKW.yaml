@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_a7kKW
+  identifier: pl_auto_pipeline_a7kKW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_q14UK
+          identifier: pl_auto_template_q14UK
+          template:
+            templateRef: account.pl_auto_template_q14UK
+            versionLabel: v3
