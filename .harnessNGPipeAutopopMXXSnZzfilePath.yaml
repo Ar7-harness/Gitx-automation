@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutopopMXXSnZz
-  tags: {}
   name: NGPipeAutopopMXXSnZz
-  type: PreProduction
+  identifier: NGPipeAutopopMXXSnZz
+  tags: {
+    }
+  type: Production
