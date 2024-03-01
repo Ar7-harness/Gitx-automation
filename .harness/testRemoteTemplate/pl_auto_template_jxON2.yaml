@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_jxON2
+  identifier: pl_auto_template_jxON2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QCTlU
+              identifier: pl_auto_template_QCTlU
+              template:
+                templateRef: account.pl_auto_template_QCTlU
+                versionLabel: v3
+                gitBranch: main
