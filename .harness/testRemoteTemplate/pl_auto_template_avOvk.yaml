@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_avOvk
+  identifier: pl_auto_template_avOvk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Jqqgd
+              identifier: pl_auto_template_Jqqgd
+              template:
+                templateRef: account.pl_auto_template_Jqqgd
+                versionLabel: v3
+                gitBranch: main
