@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoFAusbeZPB3
-  tags: {}
   name: NGPipeAutoFAusbeZPB3
-  type: PreProduction
+  identifier: NGPipeAutoFAusbeZPB3
+  tags: {
+    }
+  type: Production
