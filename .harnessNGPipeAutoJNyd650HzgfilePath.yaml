@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoJNyd650Hzg
-  tags: {}
   name: NGPipeAutoJNyd650Hzg
-  type: PreProduction
+  identifier: NGPipeAutoJNyd650Hzg
+  tags: {
+    }
+  type: Production
