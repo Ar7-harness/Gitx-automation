@@ -1,8 +1,0 @@
-service:
-  name: eNGPipeAutoq4yM09uuZ5
-  identifier: eNGPipeAutoq4yM09uuZ5
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
