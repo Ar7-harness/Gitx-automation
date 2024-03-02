@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoKTyn1yRPVT
-  identifier: NGPipeAutoKTyn1yRPVT
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
