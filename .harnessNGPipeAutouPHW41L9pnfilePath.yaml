@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutouPHW41L9pn
-  identifier: NGPipeAutouPHW41L9pn
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
