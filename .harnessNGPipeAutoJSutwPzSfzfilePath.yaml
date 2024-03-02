@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoJSutwPzSfz
-  tags: {}
   name: NGPipeAutoJSutwPzSfz
-  type: PreProduction
+  identifier: NGPipeAutoJSutwPzSfz
+  tags: {
+    }
+  type: Production
