@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_L2ruc
+  identifier: pl_auto_pipeline_L2ruc
+  template:
+    templateRef: account.pl_auto_pipeline_VP3op
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
