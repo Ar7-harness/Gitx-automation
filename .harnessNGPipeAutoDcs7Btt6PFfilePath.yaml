@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoDcs7Btt6PF
-  tags: {}
   name: NGPipeAutoDcs7Btt6PF
-  type: PreProduction
+  identifier: NGPipeAutoDcs7Btt6PF
+  tags: {
+    }
+  type: Production
