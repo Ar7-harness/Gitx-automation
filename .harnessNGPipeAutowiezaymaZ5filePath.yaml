@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfra9pC9qsDjDS
+  identifier: NGPipeAutowiezaymaZ5
+  tags: {}
+  name: NGPipeAutowiezaymaZ5
+  type: PreProduction
