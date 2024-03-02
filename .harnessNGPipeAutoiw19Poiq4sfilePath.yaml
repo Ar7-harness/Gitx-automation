@@ -1,0 +1,6 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  identifier: NGPipeAutoiw19Poiq4s
+  tags: {}
+  name: NGPipeAutoiw19Poiq4s
+  type: PreProduction
