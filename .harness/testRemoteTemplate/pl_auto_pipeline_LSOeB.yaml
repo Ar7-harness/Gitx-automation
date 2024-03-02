@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_LSOeB
+  identifier: pl_auto_pipeline_LSOeB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_8p5Zd
+          identifier: pl_auto_template_8p5Zd
+          template:
+            templateRef: account.pl_auto_template_8p5Zd
+            versionLabel: v3
