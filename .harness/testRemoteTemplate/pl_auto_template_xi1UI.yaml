@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xi1UI
+  identifier: pl_auto_template_xi1UI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_r8Xzl
+              identifier: pl_auto_template_r8Xzl
+              template:
+                templateRef: account.pl_auto_template_r8Xzl
+                versionLabel: v3
+                gitBranch: main
