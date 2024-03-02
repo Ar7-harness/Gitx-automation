@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_bl5BM
+  identifier: pl_auto_pipeline_bl5BM
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_hSPo6
+          identifier: pl_auto_template_hSPo6
+          template:
+            templateRef: account.pl_auto_template_hSPo6
+            versionLabel: v3
