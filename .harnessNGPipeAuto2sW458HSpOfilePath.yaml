@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAuto2sW458HSpO
-  tags: {}
   name: NGPipeAuto2sW458HSpO
-  type: PreProduction
+  identifier: NGPipeAuto2sW458HSpO
+  tags: {
+    }
+  type: Production
