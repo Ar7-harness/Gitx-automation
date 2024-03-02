@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAuto4envaxYToo
-  identifier: NGPipeAuto4envaxYToo
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvczMmYAjeNdY
-  tags: {
-    }
-  type: Production
