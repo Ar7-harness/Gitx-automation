@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_yi8hL
+  identifier: pl_auto_inputset_yi8hL
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_Nc6mW
+  pipeline:
+    identifier: pl_auto_pipeline_JQtlp
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
