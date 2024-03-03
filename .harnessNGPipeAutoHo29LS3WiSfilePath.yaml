@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoHo29LS3WiS
+  identifier: NGPipeAutoHo29LS3WiS
+  environmentRef: NGPipeAutoaXuQPLaSJS
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
