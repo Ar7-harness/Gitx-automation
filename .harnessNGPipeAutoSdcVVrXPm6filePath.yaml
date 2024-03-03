@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfradTgRWFa6iD
+  identifier: NGPipeAutoSdcVVrXPm6
+  tags: {}
+  name: NGPipeAutoSdcVVrXPm6
+  type: PreProduction
