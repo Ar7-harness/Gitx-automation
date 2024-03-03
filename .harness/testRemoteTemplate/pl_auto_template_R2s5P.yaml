@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_R2s5P
+  identifier: pl_auto_template_R2s5P
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_GnrLx
+              identifier: pl_auto_template_GnrLx
+              template:
+                templateRef: account.pl_auto_template_GnrLx
+                versionLabel: v3
+                gitBranch: main
