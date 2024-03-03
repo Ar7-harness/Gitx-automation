@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CMG91
+  identifier: pl_auto_pipeline_CMG91
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_GY2nD
+          identifier: pl_auto_template_GY2nD
+          template:
+            templateRef: account.pl_auto_template_GY2nD
+            versionLabel: v3
