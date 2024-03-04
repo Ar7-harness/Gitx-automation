@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutod4Q2HhmGAk
-  identifier: NGPipeAutod4Q2HhmGAk
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
