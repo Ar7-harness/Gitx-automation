@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorTYQsP4Dtt
+  identifier: NGPipeAutorTYQsP4Dtt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
