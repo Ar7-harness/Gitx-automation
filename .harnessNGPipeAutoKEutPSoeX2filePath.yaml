@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoKEutPSoeX2
-  tags: {}
   name: NGPipeAutoKEutPSoeX2
-  type: PreProduction
+  identifier: NGPipeAutoKEutPSoeX2
+  tags: {
+    }
+  type: Production
