@@ -4,7 +4,3 @@ overrides:
       type: String
       value: abc
       required: false
-    - name: var2
-      type: String
-      value: def
-      required: false
