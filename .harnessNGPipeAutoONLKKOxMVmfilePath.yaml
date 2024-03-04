@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoONLKKOxMVm
+  identifier: NGPipeAutoONLKKOxMVm
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
