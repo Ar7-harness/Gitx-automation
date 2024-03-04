@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutodvD9VEEmza
-  identifier: NGPipeAutodvD9VEEmza
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
