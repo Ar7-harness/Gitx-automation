@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eqcQL
+  identifier: pl_auto_template_eqcQL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0ub63
+              identifier: pl_auto_template_0ub63
+              template:
+                templateRef: account.pl_auto_template_0ub63
+                versionLabel: v3
+                gitBranch: main
