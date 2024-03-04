@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoOzmyYomper
-  tags: {}
   name: NGPipeAutoOzmyYomper
-  type: PreProduction
+  identifier: NGPipeAutoOzmyYomper
+  tags: {
+    }
+  type: Production
