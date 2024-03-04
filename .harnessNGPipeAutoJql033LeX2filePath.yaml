@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfrafcbXDC37U3
+  identifier: NGPipeAutoJql033LeX2
+  tags: {}
+  name: NGPipeAutoJql033LeX2
+  type: PreProduction
