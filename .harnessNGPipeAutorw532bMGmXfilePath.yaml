@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutorw532bMGmX
-  tags: {}
   name: NGPipeAutorw532bMGmX
-  type: PreProduction
+  identifier: NGPipeAutorw532bMGmX
+  tags: {
+    }
+  type: Production
