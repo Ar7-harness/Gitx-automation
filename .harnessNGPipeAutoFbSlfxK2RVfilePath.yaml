@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoFbSlfxK2RV
+  identifier: NGPipeAutoFbSlfxK2RV
+  environmentRef: NGPipeAutonsG3ahbg2R
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
