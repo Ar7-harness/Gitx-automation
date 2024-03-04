@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MyRC4
+  identifier: pl_auto_template_MyRC4
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WAAFz
+              identifier: pl_auto_template_WAAFz
+              template:
+                templateRef: account.pl_auto_template_WAAFz
+                versionLabel: v3
+                gitBranch: main
