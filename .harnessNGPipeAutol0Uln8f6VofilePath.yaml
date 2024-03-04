@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfra8mL3XxhdxV
+  identifier: NGPipeAutol0Uln8f6Vo
+  tags: {}
+  name: NGPipeAutol0Uln8f6Vo
+  type: PreProduction
