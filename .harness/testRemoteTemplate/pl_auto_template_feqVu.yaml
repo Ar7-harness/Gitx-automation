@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_feqVu
+  identifier: pl_auto_template_feqVu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_8fmZR
+              identifier: pl_auto_template_8fmZR
+              template:
+                templateRef: account.pl_auto_template_8fmZR
+                versionLabel: v3
+                gitBranch: main
