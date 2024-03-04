@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GgbLX
+  identifier: pl_auto_pipeline_GgbLX
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_0XxAk
+          identifier: pl_auto_template_0XxAk
+          template:
+            templateRef: account.pl_auto_template_0XxAk
+            versionLabel: v3
