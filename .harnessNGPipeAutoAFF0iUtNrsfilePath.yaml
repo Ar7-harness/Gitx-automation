@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoAFF0iUtNrs
-  tags: {}
   name: NGPipeAutoAFF0iUtNrs
-  type: PreProduction
+  identifier: NGPipeAutoAFF0iUtNrs
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
