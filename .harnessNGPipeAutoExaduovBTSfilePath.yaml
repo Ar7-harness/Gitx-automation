@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoExaduovBTS
-  tags: {}
   name: NGPipeAutoExaduovBTS
-  type: PreProduction
+  identifier: NGPipeAutoExaduovBTS
+  tags: {
+    }
+  type: Production
