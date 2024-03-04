@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoEMdmoVVNMn
-  tags: {}
   name: NGPipeAutoEMdmoVVNMn
-  type: PreProduction
+  identifier: NGPipeAutoEMdmoVVNMn
+  tags: {
+    }
+  type: Production
