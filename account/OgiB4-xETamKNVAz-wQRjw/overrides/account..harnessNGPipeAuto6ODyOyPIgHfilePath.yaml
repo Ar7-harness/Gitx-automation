@@ -2,5 +2,5 @@ overrides:
   variables:
     - name: var
       type: String
-      value: abc
+      value: abcdefgh
       required: false
