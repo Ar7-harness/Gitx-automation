@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutoFzy5PABY28
-  identifier: NGPipeAutoFzy5PABY28
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcXaa0Rsypc4
-  tags: {
-    }
-  type: Production
