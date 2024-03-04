@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutod2usPalDXW
-  identifier: NGPipeAutod2usPalDXW
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcppSwrHTEzg
-  tags: {
-    }
-  type: Production
