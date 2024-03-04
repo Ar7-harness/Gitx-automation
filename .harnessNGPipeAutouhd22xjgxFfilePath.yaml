@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutouhd22xjgxF
-  identifier: NGPipeAutouhd22xjgxF
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
