@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoEOzi5boxDa
-  tags: {}
-  name: NGPipeAutoEOzi5boxDa
-  type: PreProduction
