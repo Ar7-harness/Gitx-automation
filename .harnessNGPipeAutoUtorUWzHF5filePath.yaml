@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoUtorUWzHF5
+  identifier: NGPipeAutoUtorUWzHF5
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
