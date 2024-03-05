@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutoghkJv9c3ou
-  identifier: NGPipeAutoghkJv9c3ou
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineOverridesoFlvD2GEPx
-  tags: {
-    }
-  type: Production
