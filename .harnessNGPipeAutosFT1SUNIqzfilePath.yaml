@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutosFT1SUNIqz
-  tags: {}
   name: NGPipeAutosFT1SUNIqz
-  type: PreProduction
+  identifier: NGPipeAutosFT1SUNIqz
+  tags: {
+    }
+  type: Production
