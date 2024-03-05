@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoSUtcrA1EJG
-  tags: {}
   name: NGPipeAutoSUtcrA1EJG
-  type: PreProduction
+  identifier: NGPipeAutoSUtcrA1EJG
+  tags: {
+    }
+  type: Production
