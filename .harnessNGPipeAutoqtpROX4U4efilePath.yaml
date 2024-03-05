@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoqtpROX4U4e
-  tags: {}
-  name: NGPipeAutoqtpROX4U4e
-  type: PreProduction
