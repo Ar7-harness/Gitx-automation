@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_sqHVE
+  identifier: pl_auto_pipeline_sqHVE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_SlHsD
+          identifier: pl_auto_template_SlHsD
+          template:
+            templateRef: account.pl_auto_template_SlHsD
+            versionLabel: v3
