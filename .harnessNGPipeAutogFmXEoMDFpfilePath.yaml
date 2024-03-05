@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutogFmXEoMDFp
-  tags: {}
-  name: NGPipeAutogFmXEoMDFp
-  type: PreProduction
