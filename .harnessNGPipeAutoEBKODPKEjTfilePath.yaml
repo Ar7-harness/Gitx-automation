@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoEBKODPKEjT
-  tags: {}
   name: NGPipeAutoEBKODPKEjT
-  type: PreProduction
+  identifier: NGPipeAutoEBKODPKEjT
+  tags: {
+    }
+  type: Production
