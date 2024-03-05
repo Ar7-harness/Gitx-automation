@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoRil6HF0AZZ
-  tags: {}
-  name: NGPipeAutoRil6HF0AZZ
-  type: PreProduction
