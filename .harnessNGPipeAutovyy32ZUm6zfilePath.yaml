@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutovyy32ZUm6z
-  identifier: NGPipeAutovyy32ZUm6z
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcZ33Pk5vI4a
-  tags: {
-    }
-  type: Production
