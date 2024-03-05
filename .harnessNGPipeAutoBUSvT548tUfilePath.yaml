@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoBUSvT548tU
-  tags: {}
   name: NGPipeAutoBUSvT548tU
-  type: PreProduction
+  identifier: NGPipeAutoBUSvT548tU
+  tags: {
+    }
+  type: Production
