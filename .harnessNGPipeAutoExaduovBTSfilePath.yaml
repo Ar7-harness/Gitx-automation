@@ -1,6 +1,0 @@
-environment:
-  name: NGPipeAutoExaduovBTS
-  identifier: NGPipeAutoExaduovBTS
-  tags: {
-    }
-  type: Production
