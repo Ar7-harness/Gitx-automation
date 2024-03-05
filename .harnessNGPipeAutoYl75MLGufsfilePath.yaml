@@ -1,7 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineOverridesI5VWcYBqDS
-  identifier: NGPipeAutoYl75MLGufs
-  tags: {}
-  name: NGPipeAutoYl75MLGufs
-  type: PreProduction
