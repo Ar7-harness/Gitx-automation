@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfratQEX18XOoW
+  identifier: NGPipeAutot4sDOvBu3D
+  tags: {}
+  name: NGPipeAutot4sDOvBu3D
+  type: PreProduction
