@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoKPBdalNOeA
-  tags: {}
   name: NGPipeAutoKPBdalNOeA
-  type: PreProduction
+  identifier: NGPipeAutoKPBdalNOeA
+  tags: {
+    }
+  type: Production
