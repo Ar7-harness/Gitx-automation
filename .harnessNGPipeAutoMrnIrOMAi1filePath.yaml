@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMrnIrOMAi1
+  identifier: NGPipeAutoMrnIrOMAi1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
