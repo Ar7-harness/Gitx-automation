@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAXXkna0141
+  identifier: NGPipeAutoAXXkna0141
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
