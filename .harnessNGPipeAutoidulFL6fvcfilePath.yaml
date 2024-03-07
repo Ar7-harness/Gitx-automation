@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoidulFL6fvc
-  tags: {}
   name: NGPipeAutoidulFL6fvc
-  type: PreProduction
+  identifier: NGPipeAutoidulFL6fvc
+  tags: {
+    }
+  type: Production
