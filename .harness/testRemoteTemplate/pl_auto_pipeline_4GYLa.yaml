@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_4GYLa
+  identifier: pl_auto_pipeline_4GYLa
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NJMDd
+          identifier: pl_auto_template_NJMDd
+          template:
+            templateRef: account.pl_auto_template_NJMDd
+            versionLabel: v3
