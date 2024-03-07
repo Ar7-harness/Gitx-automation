@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoGapfT2ayrW
-  tags: {}
-  name: NGPipeAutoGapfT2ayrW
-  type: PreProduction
