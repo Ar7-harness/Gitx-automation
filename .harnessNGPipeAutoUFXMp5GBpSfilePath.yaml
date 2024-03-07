@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoUFXMp5GBpS
+  identifier: NGPipeAutoUFXMp5GBpS
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcv5S00aN887
-  identifier: NGPipeAutoUFXMp5GBpS
-  tags: {}
-  name: NGPipeAutoUFXMp5GBpS
-  type: PreProduction
+  tags: {
+    }
+  type: Production
