@@ -11,5 +11,17 @@ pipeline:
           templateRef: remote_multi_svc_env_infra_temp1rucy
           versionLabel: v1
           gitBranch: main-patch
+          templateInputs:
+            type: Deployment
+            spec:
+              services:
+                values:
+                  - serviceInputs:
+                      serviceDefinition:
+                        type: Kubernetes
+                        spec:
+                          release:
+                            name: <+input>
+                    serviceRef: NGPipeAutoSvcYvKrjkZd1f
   identifier: remote_multi_svc_env_infra_pipe8sd8L_Clone
   name: remote_multi_svc_env_infra_pipe8sd8L - Clone
