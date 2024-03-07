@@ -29,8 +29,14 @@ template:
         rollbackSteps: []
       services:
         values:
-          - serviceRef: NGPipeAutoSvcK7bnMhPwnf
           - serviceRef: NGPipeAutoSvcYvKrjkZd1f
+            serviceInputs:
+              serviceDefinition:
+                type: Kubernetes
+                spec:
+                  release:
+                    name: <+input>
+          - serviceRef: NGPipeAutoSvcK7bnMhPwnf
         metadata:
           parallel: true
       environments:
