@@ -30,12 +30,6 @@ template:
       services:
         values:
           - serviceRef: NGPipeAutoSvcYvKrjkZd1f
-            serviceInputs:
-              serviceDefinition:
-                type: Kubernetes
-                spec:
-                  release:
-                    name: <+input>
         metadata:
           parallel: true
       environments:
