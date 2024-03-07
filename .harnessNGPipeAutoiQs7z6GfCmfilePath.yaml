@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAutoiQs7z6GfCm
-  identifier: NGPipeAutoiQs7z6GfCm
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
