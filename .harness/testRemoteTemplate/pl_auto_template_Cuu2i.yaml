@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Cuu2i
+  identifier: pl_auto_template_Cuu2i
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TvldE
+              identifier: pl_auto_template_TvldE
+              template:
+                templateRef: account.pl_auto_template_TvldE
+                versionLabel: v3
+                gitBranch: main
