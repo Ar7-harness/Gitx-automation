@@ -30,7 +30,12 @@ template:
       services:
         values:
           - serviceRef: NGPipeAutoSvcYvKrjkZd1f
-          - serviceRef: NGPipeAutoSvcK7bnMhPwnf
+            serviceInputs:
+              serviceDefinition:
+                type: Kubernetes
+                spec:
+                  release:
+                    name: <+input>
         metadata:
           parallel: true
       environments:
@@ -41,10 +46,6 @@ template:
             deployToAll: false
             infrastructureDefinitions:
               - identifier: NGPipeAutosAPKh1oKoq
-          - environmentRef: NGPipeAutoOg68BTzasL
-            deployToAll: false
-            infrastructureDefinitions:
-              - identifier: NGPipeAutoiWOd9N37XS
     failureStrategies:
       - onFailure:
           errors:
