@@ -1,0 +1,53 @@
+pipeline:
+  name: testpipeline07March
+  identifier: testpipeline07March
+  projectIdentifier: NGPipeAutoPipelineSvcGA87ruSgZM
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Deployment
+        spec:
+          deploymentType: Kubernetes
+          service:
+            serviceRef: NGPipeAutoSvcYvKrjkZd1f
+            serviceInputs:
+              serviceDefinition:
+                type: Kubernetes
+                spec:
+                  release:
+                    name: <+input>
+            gitBranch: main-patch
+          environment:
+            environmentRef: NGPipeAutoFIlB5uETKx
+            gitBranch: main-patch
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutosAPKh1oKoq
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo 'hi'
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+            rollbackSteps: []
+        tags: {}
+        failureStrategies:
+          - onFailure:
+              errors:
+                - AllErrors
+              action:
+                type: Ignore
