@@ -28,18 +28,13 @@ template:
               timeout: 10m
         rollbackSteps: []
       services:
-        values:
-          - serviceRef: NGPipeAutoSvcYvKrjkZd1f
+        values: <+input>
         metadata:
           parallel: true
       environments:
         metadata:
           parallel: true
-        values:
-          - environmentRef: NGPipeAutoFIlB5uETKx
-            deployToAll: false
-            infrastructureDefinitions:
-              - identifier: NGPipeAutosAPKh1oKoq
+        values: <+input>
     failureStrategies:
       - onFailure:
           errors:
