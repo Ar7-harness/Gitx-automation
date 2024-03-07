@@ -1,6 +1,0 @@
-overrides:
-  variables:
-    - name: var
-      type: String
-      value: abcdefgh
-      required: false
