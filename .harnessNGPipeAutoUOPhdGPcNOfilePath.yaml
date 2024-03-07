@@ -7,7 +7,7 @@ infrastructureDefinition:
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
-    connectorRef: account.Harness_Kubernetes_Cluster
+    connectorRef: account.KubernetesAccLvlConnectorForAutomationTest
     namespace: default
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
