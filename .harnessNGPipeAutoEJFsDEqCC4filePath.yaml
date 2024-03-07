@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoEJFsDEqCC4
-  tags: {}
   name: NGPipeAutoEJFsDEqCC4
-  type: PreProduction
+  identifier: NGPipeAutoEJFsDEqCC4
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
