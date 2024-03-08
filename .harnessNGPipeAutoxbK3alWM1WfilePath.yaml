@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineOverridesaRBPpBP74P
+  identifier: NGPipeAutoxbK3alWM1W
+  tags: {}
+  name: NGPipeAutoxbK3alWM1W
+  type: PreProduction
