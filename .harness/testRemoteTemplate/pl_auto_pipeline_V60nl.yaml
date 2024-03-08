@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_V60nl
+  identifier: pl_auto_pipeline_V60nl
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NDJXt
+          identifier: pl_auto_template_NDJXt
+          template:
+            templateRef: account.pl_auto_template_NDJXt
+            versionLabel: v3
