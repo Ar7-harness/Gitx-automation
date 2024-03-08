@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoGfa6Tdc70f
-  identifier: NGPipeAutoGfa6Tdc70f
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
