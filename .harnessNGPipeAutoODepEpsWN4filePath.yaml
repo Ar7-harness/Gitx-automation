@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfracDEPA26uY0
+  identifier: NGPipeAutoODepEpsWN4
+  tags: {}
+  name: NGPipeAutoODepEpsWN4
+  type: PreProduction
