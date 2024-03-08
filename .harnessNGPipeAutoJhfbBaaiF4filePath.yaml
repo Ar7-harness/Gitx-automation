@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoJhfbBaaiF4
-  tags: {}
   name: NGPipeAutoJhfbBaaiF4
-  type: PreProduction
+  identifier: NGPipeAutoJhfbBaaiF4
+  tags: {
+    }
+  type: Production
