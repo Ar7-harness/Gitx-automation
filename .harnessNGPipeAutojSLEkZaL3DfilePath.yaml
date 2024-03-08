@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcgX3n1Q4gho
+  identifier: NGPipeAutojSLEkZaL3D
+  tags: {}
+  name: NGPipeAutojSLEkZaL3D
+  type: PreProduction
