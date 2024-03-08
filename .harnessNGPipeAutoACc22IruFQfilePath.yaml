@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoACc22IruFQ
+  identifier: NGPipeAutoACc22IruFQ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
