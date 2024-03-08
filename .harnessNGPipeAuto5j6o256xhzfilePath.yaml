@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto5j6o256xhz
+  identifier: NGPipeAuto5j6o256xhz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
