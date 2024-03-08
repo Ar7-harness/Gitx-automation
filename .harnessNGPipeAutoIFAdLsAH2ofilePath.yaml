@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoIFAdLsAH2o
+  identifier: NGPipeAutoIFAdLsAH2o
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
