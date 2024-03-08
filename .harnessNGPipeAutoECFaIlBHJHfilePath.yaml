@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoECFaIlBHJH
-  tags: {}
   name: NGPipeAutoECFaIlBHJH
-  type: PreProduction
+  identifier: NGPipeAutoECFaIlBHJH
+  tags: {
+    }
+  type: Production
