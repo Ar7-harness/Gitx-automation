@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoHPPMtJVD83
-  tags: {}
   name: NGPipeAutoHPPMtJVD83
-  type: PreProduction
+  identifier: NGPipeAutoHPPMtJVD83
+  tags: {
+    }
+  type: Production
