@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoRypJve4edW
-  tags: {}
   name: NGPipeAutoRypJve4edW
-  type: PreProduction
+  identifier: NGPipeAutoRypJve4edW
+  tags: {
+    }
+  type: Production
