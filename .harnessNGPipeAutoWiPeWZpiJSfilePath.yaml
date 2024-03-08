@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoWiPeWZpiJS
+  identifier: NGPipeAutoWiPeWZpiJS
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcg4959RA20V
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
