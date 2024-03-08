@@ -1,7 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineInfraMxugEEdNpP
-  identifier: NGPipeAutonUPecraLwg
-  tags: {}
-  name: NGPipeAutonUPecraLwg
-  type: PreProduction
