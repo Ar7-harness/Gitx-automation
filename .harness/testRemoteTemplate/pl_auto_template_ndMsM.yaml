@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ndMsM
+  identifier: pl_auto_template_ndMsM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_yadfY
+              identifier: pl_auto_template_yadfY
+              template:
+                templateRef: account.pl_auto_template_yadfY
+                versionLabel: v3
+                gitBranch: main
