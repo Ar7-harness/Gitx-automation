@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutoJsZEeg3L94
-  identifier: NGPipeAutoJsZEeg3L94
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcv4CzUjOe0Y
-  tags: {
-    }
-  type: Production
