@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAuto0JWmAx32ch
-  tags: {}
-  name: NGPipeAuto0JWmAx32ch
-  type: PreProduction
