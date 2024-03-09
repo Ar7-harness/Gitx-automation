@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_9UPCK
+  identifier: pl_auto_template_9UPCK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_EctEf
+              identifier: pl_auto_template_EctEf
+              template:
+                templateRef: account.pl_auto_template_EctEf
+                versionLabel: v3
+                gitBranch: main
