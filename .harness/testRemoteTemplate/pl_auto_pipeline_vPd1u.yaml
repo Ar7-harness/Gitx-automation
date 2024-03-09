@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_vPd1u
+  identifier: pl_auto_pipeline_vPd1u
+  template:
+    templateRef: account.pl_auto_pipeline_DpEmD
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
