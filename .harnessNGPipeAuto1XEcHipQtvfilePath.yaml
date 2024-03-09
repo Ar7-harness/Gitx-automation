@@ -1,0 +1,6 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  identifier: NGPipeAuto1XEcHipQtv
+  tags: {}
+  name: NGPipeAuto1XEcHipQtv
+  type: PreProduction
