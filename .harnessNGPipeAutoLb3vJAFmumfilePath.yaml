@@ -1,6 +1,0 @@
-environment:
-  name: NGPipeAutoLb3vJAFmum
-  identifier: NGPipeAutoLb3vJAFmum
-  tags: {
-    }
-  type: Production
