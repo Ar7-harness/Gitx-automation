@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoShhoMb91qe
-  tags: {}
   name: NGPipeAutoShhoMb91qe
-  type: PreProduction
+  identifier: NGPipeAutoShhoMb91qe
+  tags: {
+    }
+  type: Production
