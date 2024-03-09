@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto17Dje65i8Y
+  identifier: NGPipeAuto17Dje65i8Y
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
