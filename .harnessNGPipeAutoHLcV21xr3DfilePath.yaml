@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoHLcV21xr3D
+  identifier: NGPipeAutoHLcV21xr3D
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfrac67Z4NSKpK
+  environmentRef: NGPipeAutoK0Rm8G4ajV
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
