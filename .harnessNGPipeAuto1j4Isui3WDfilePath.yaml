@@ -1,7 +1,0 @@
-environment:
-  name: NGPipeAuto1j4Isui3WD
-  identifier: NGPipeAuto1j4Isui3WD
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {
-    }
-  type: Production
