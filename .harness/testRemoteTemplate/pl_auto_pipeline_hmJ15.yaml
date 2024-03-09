@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_hmJ15
+  identifier: pl_auto_pipeline_hmJ15
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_tcjoc
+          identifier: pl_auto_template_tcjoc
+          template:
+            templateRef: account.pl_auto_template_tcjoc
+            versionLabel: v3
