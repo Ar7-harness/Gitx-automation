@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcjQ6Hh941On
+  identifier: NGPipeAutofsW44W75Pe
+  tags: {}
+  name: NGPipeAutofsW44W75Pe
+  type: PreProduction
