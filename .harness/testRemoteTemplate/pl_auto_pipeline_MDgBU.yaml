@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MDgBU
+  identifier: pl_auto_pipeline_MDgBU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Oy4hU
+          identifier: pl_auto_template_Oy4hU
+          template:
+            templateRef: account.pl_auto_template_Oy4hU
+            versionLabel: v3
