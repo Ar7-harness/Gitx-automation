@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_jNho3
+  identifier: pl_auto_template_jNho3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SXire
+              identifier: pl_auto_template_SXire
+              template:
+                templateRef: account.pl_auto_template_SXire
+                versionLabel: v3
+                gitBranch: main
