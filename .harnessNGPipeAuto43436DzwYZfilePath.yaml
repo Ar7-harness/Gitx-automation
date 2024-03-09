@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAuto43436DzwYZ
-  identifier: NGPipeAuto43436DzwYZ
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcx5XdmhhENA
-  tags: {
-    }
-  type: Production
