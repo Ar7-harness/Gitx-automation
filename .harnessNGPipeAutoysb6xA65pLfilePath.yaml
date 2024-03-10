@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoysb6xA65pL
+  identifier: NGPipeAutoysb6xA65pL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
