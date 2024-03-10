@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoACc22IruFQ
-  identifier: NGPipeAutoACc22IruFQ
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
