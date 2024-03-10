@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutorMsEBrj5BL
-  identifier: NGPipeAutorMsEBrj5BL
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcpQkw0fv9XI
-  tags: {
-    }
-  type: Production
