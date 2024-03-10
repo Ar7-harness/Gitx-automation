@@ -1,6 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoJ3k90xtREk
-  tags: {}
-  name: NGPipeAutoJ3k90xtREk
-  type: PreProduction
