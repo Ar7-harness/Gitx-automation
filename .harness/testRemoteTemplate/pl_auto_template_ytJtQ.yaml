@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ytJtQ
+  identifier: pl_auto_template_ytJtQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PtDdb
+              identifier: pl_auto_template_PtDdb
+              template:
+                templateRef: account.pl_auto_template_PtDdb
+                versionLabel: v3
+                gitBranch: main
