@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoYNoA64Yvov
+  identifier: NGPipeAutoYNoA64Yvov
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
