@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutocC4msJSMYq
-  tags: {}
   name: NGPipeAutocC4msJSMYq
-  type: PreProduction
+  identifier: NGPipeAutocC4msJSMYq
+  tags: {
+    }
+  type: Production
