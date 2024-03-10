@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_X5K7c
+  identifier: pl_auto_template_X5K7c
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_gcS7k
+              identifier: pl_auto_template_gcS7k
+              template:
+                templateRef: account.pl_auto_template_gcS7k
+                versionLabel: v3
+                gitBranch: main
