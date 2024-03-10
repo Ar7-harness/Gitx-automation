@@ -1,7 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineOverridescWVvWwv3ht
-  identifier: NGPipeAutoieILOTx8KX
-  tags: {}
-  name: NGPipeAutoieILOTx8KX
-  type: PreProduction
