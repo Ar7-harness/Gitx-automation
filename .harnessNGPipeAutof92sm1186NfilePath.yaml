@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutof92sm1186N
-  identifier: NGPipeAutof92sm1186N
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvcU93sG8n3Ru
-  tags: {
-    }
-  type: Production
