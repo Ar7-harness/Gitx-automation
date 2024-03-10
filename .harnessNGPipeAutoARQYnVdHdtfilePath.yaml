@@ -1,8 +1,0 @@
-environment:
-  name: NGPipeAutoARQYnVdHdt
-  identifier: NGPipeAutoARQYnVdHdt
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineSvc9PvBLNX9g9
-  tags: {
-    }
-  type: Production
