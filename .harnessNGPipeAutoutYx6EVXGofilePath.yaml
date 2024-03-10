@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoutYx6EVXGo
+  identifier: NGPipeAutoutYx6EVXGo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
