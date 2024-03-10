@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutolpmNTViTL7
-  tags: {}
   name: NGPipeAutolpmNTViTL7
-  type: PreProduction
+  identifier: NGPipeAutolpmNTViTL7
+  tags: {
+    }
+  type: Production
