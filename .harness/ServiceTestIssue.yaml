@@ -25,5 +25,5 @@ service:
           type: String
           description: ""
           required: true
-          value: "23423"
+          value: <+input>
     type: Kubernetes
