@@ -1,0 +1,7 @@
+environment:
+  name: BugTestEnvironment
+  identifier: BugTestEnvironment
+  accountId: yO_v4w70SrC_KpUvCT-YvA
+  orgIdentifier: default
+  projectIdentifier: DoNotDelete_Prakhar_GITX_BUG_Check
+  type: Production
