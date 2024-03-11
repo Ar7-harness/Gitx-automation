@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraTestCheck
+  identifier: InfraTestCheck
+  orgIdentifier: default
+  projectIdentifier: DoNotDelete_BugTest
+  environmentRef: EnvironmentTestIssue
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: KubernetesConnectorCheck
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
