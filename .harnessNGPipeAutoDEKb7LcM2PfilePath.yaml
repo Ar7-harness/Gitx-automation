@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDEKb7LcM2P
+  identifier: NGPipeAutoDEKb7LcM2P
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
