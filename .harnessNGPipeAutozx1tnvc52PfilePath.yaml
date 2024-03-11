@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutozx1tnvc52P
+  identifier: NGPipeAutozx1tnvc52P
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
