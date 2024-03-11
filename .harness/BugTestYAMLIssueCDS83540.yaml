@@ -1,0 +1,39 @@
+pipeline:
+  name: BugTestYAMLIssue-CDS83540
+  identifier: BugTestYAMLIssueCDS83540
+  projectIdentifier: DoNotDelete_Prakhar_GITX_BUG_Check
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: Test1
+        identifier: Test1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: |-
+                          echo ThisIsTestCheck!
+                          echo $input_var
+                          OutputVariable=12344
+                    environmentVariables:
+                      - name: input_var
+                        type: String
+                        value: "2342342"
+                    outputVariables:
+                      - name: OutputVar
+                        type: String
+                        value: OutputVariable
+                  timeout: 10m
+        tags: {}
