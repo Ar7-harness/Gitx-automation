@@ -1,0 +1,30 @@
+pipeline:
+  name: TestRemotePipeline
+  identifier: TestRemotePipeline
+  projectIdentifier: DoNotDelete_Prakhar_GITX_BUG_Check
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: Test2
+        identifier: Test2
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo Hello
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
