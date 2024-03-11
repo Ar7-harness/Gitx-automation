@@ -25,11 +25,12 @@ pipeline:
                       spec:
                         script: |-
                           echo ThisisTest
-                          output_var= 1234
+                          output_var= '1234'
                     outputVariables:
                       - name: outputvar
                         type: String
                         value: output_var
+                    environmentVariables: []
                   timeout: 10m
         tags: {}
     - stage:
