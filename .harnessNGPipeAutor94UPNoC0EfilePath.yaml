@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfrap8grmjiBPP
+  identifier: NGPipeAutor94UPNoC0E
+  tags: {}
+  name: NGPipeAutor94UPNoC0E
+  type: PreProduction
