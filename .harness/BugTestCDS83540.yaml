@@ -1,0 +1,38 @@
+pipeline:
+  name: BugTest-CDS-83540
+  identifier: BugTestCDS83540
+  projectIdentifier: DoNotDelete_BugTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: Test1
+        identifier: Test1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: |-
+                          echo ThisisTest
+                          output_var= 1234
+                    environmentVariables:
+                      - name: input_var
+                        type: Number
+                        value: "234"
+                    outputVariables:
+                      - name: outputvar
+                        type: String
+                        value: output_var
+                  timeout: 10m
+        tags: {}
