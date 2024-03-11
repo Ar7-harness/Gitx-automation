@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoLPf1lfuxMy
+  identifier: NGPipeAutoLPf1lfuxMy
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcWCU4SUGBLE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
