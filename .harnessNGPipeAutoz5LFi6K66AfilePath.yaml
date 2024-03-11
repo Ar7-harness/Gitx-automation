@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfrauIFzl8stnP
+  identifier: NGPipeAutoz5LFi6K66A
+  tags: {}
+  name: NGPipeAutoz5LFi6K66A
+  type: PreProduction
