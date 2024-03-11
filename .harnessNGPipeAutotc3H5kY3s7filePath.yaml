@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutotc3H5kY3s7
+  identifier: NGPipeAutotc3H5kY3s7
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcmHKuvpVmxd
-  identifier: NGPipeAutotc3H5kY3s7
-  tags: {}
-  name: NGPipeAutotc3H5kY3s7
-  type: PreProduction
+  tags: {
+    }
+  type: Production
