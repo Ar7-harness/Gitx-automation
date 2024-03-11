@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineOverridesAJhU0Ssccm
+  identifier: NGPipeAutoVcOJnnzHOe
+  tags: {}
+  name: NGPipeAutoVcOJnnzHOe
+  type: PreProduction
