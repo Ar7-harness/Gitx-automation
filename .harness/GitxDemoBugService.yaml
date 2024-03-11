@@ -3,3 +3,22 @@ service:
   identifier: GitxDemoBugService
   orgIdentifier: default
   projectIdentifier: DoNotDelete_Prakhar_GITX_BUG_Check
+  serviceDefinition:
+    spec:
+      variables:
+        - name: var1
+          type: String
+          description: ""
+          required: true
+          value: "34234234"
+        - name: var2
+          type: String
+          description: ""
+          required: true
+          value: <+input>
+        - name: var3
+          type: String
+          description: ""
+          required: true
+          value: <+pipeline.identifier>
+    type: Ssh
