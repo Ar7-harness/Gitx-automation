@@ -1,0 +1,7 @@
+environment:
+  name: Environment
+  identifier: Environment
+  accountId: OgiB4-xETamKNVAz-wQRjw
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: Do_Not_Delete_Prakhar
+  type: Production
