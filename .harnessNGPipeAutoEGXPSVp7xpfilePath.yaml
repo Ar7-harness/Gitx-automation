@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoEGXPSVp7xp
+  identifier: NGPipeAutoEGXPSVp7xp
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcWCU4SUGBLE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
