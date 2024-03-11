@@ -1,7 +1,0 @@
-environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  projectIdentifier: NGPipeAutoPipelineInfragGmeMRCGSW
-  identifier: NGPipeAutoM7fV3545Gu
-  tags: {}
-  name: NGPipeAutoM7fV3545Gu
-  type: PreProduction
