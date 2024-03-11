@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_t9ifd
+  identifier: pl_auto_template_t9ifd
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_jkUik
+              identifier: pl_auto_template_jkUik
+              template:
+                templateRef: account.pl_auto_template_jkUik
+                versionLabel: v3
+                gitBranch: main
