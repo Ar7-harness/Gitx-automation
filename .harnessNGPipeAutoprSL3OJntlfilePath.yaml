@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoprSL3OJntl
+  identifier: NGPipeAutoprSL3OJntl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
