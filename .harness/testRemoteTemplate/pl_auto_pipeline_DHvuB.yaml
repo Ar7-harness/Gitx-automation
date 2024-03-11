@@ -1,9 +1,0 @@
-pipeline:
-  name: pl_auto_pipeline_DHvuB
-  identifier: pl_auto_pipeline_DHvuB
-  template:
-    templateRef: account.pl_auto_pipeline_SwPaD
-    versionLabel: v3
-  tags: { }
-  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
-  orgIdentifier: Simlified_Git_sync
