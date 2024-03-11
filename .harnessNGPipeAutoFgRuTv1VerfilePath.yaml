@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFgRuTv1Ver
+  identifier: NGPipeAutoFgRuTv1Ver
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
