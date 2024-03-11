@@ -1,6 +1,0 @@
-environment:
-  name: NGPipeAutonaCmeKvo32
-  identifier: NGPipeAutonaCmeKvo32
-  tags: {
-    }
-  type: Production
