@@ -3,3 +3,27 @@ service:
   identifier: ServiceTestIssue
   orgIdentifier: default
   projectIdentifier: DoNotDelete_BugTest
+  serviceDefinition:
+    spec:
+      variables:
+        - name: Variable
+          type: String
+          description: ""
+          required: true
+          value: "234234"
+        - name: Var2
+          type: String
+          description: ""
+          required: true
+          value: <+input>
+        - name: var3
+          type: String
+          description: ""
+          required: true
+          value: <+pipeline.name>
+        - name: varchangeAll
+          type: String
+          description: ""
+          required: true
+          value: "23423"
+    type: Kubernetes
