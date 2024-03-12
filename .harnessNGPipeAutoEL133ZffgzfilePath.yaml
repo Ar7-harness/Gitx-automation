@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEL133Zffgz
+  identifier: NGPipeAutoEL133Zffgz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
