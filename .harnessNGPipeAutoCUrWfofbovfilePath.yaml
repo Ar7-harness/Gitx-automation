@@ -1,5 +1,6 @@
 environment:
-  identifier: NGPipeAutoCUrWfofbov
-  tags: {}
   name: NGPipeAutoCUrWfofbov
-  type: PreProduction
+  identifier: NGPipeAutoCUrWfofbov
+  tags: {
+    }
+  type: Production
