@@ -1,12 +1,9 @@
 service:
-  serviceDefinition:
-    spec:
+  name: svc1_github
+  identifier: svc1_github
       variables:
-        - name: var1
+        - name: eaesdfvs
           type: String
           description: ""
           required: false
-          value: <+input>
-    type: Kubernetes
-  identifier: svc1_github
-  name: svc1_github
+          value: sdfvsdf
