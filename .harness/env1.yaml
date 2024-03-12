@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: env1
+  identifier: env1
+  environmentRef: env1
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: <+input>
+    namespace: frdesw
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
