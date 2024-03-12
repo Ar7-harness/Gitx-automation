@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_gl2ZS
+  identifier: pl_auto_template_gl2ZS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_uydXp
+              identifier: pl_auto_template_uydXp
+              template:
+                templateRef: account.pl_auto_template_uydXp
+                versionLabel: v3
+                gitBranch: main
