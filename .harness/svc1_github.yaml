@@ -1,3 +1,9 @@
 service:
   name: svc1_github
   identifier: svc1_github
+      variables:
+        - name: eaesdfvs
+          type: String
+          description: ""
+          required: false
+          value: sdfvsdf
