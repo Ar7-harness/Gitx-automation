@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: s1
         identifier: s1
-        description: Desc Added 3uaQ80
+        description: Desc Added I4p4do
         type: Approval
         spec:
           execution:
