@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_o6Tur
+  identifier: pl_auto_template_o6Tur
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_jqR4e
+              identifier: pl_auto_template_jqR4e
+              template:
+                templateRef: account.pl_auto_template_jqR4e
+                versionLabel: v3
+                gitBranch: main
