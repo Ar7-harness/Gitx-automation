@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutotTWM7vfMCU
+  identifier: NGPipeAutotTWM7vfMCU
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
