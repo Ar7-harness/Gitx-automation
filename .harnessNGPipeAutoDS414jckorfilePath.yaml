@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoDS414jckor
+  identifier: NGPipeAutoDS414jckor
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcva0BBRW9ds
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
