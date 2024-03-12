@@ -1,0 +1,7 @@
+environment:
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfraHzkAcp92hd
+  identifier: NGPipeAutoGGJsYWr4o7
+  tags: {}
+  name: NGPipeAutoGGJsYWr4o7
+  type: PreProduction
